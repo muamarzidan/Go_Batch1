@@ -1,15 +1,24 @@
-package main 
+package main
 
-import "fmt"
+import (
+    "fmt"
+    "math"
+)
 
-func diameterLingkaran()  {
-	const phi float64 = 3.14
-	var luasLingkaran float64
+func main() {
+    const phi float64 = 3.14
+    var luasLingkaran float64
 
-	fmt.Print("Masukkan luas lingkaran : ")
-	fmt.Scan(&luasLingkaran)
+    fmt.Print("luas lingkaran : ")
+    fmt.Scan(&luasLingkaran)
 
-	diameter := 2 * (luasLingkaran / phi)
+    if luasLingkaran <= 0 {
+        fmt.Println("Masukan luas lingkaran dengan angka yang benar")
+        return
+    }
 
-	fmt.Println("Diameter lingkaran adalah", diameter)
+    var diameter float64 = 2 * math.Sqrt(luasLingkaran/phi)
+    diameter = math.Round(diameter*10)/10
+
+    fmt.Println("Diameter lingkaran adalah", diameter)
 }
