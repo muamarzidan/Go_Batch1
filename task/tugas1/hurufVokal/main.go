@@ -5,14 +5,16 @@ import (
 	"strings"
 )
 
+
+//soal no 12
 func main() {
-	var karakter string
+	var hurufVokal string
 
 	fmt.Print("Masukkan huruf : ")
-	fmt.Scan(&karakter)
-	karakter = strings.ToLower(karakter)
+	fmt.Scan(&hurufVokal)
+	hurufVokal = strings.ToLower(hurufVokal)
 
-	if karakter == "a" || karakter == "e" || karakter == "i" || karakter == "o" || karakter == "u" {
+	if hurufVokal == "a" || hurufVokal == "e" || hurufVokal == "i" || hurufVokal == "o" || hurufVokal == "u" {
 		fmt.Println("true")
 	} else {
 		fmt.Println("false")

@@ -5,11 +5,12 @@ import (
 )
 
 
+//soal no 16
 func main() {
-	var nama string
+	var namaSaya string
 
 	fmt.Print("Masukkan kata : ")
-	fmt.Scan(&nama)
+	fmt.Scan(&namaSaya)
 
-	fmt.Println("Hai " + nama + ", saya sebenarnya adalah manusia :)")
+	fmt.Println("Hai, " + namaSaya + ", saya sebenarnya adalah manusia :)")
 }

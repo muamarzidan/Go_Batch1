@@ -6,14 +6,15 @@ import (
 )
 
 
+//soal no 13&14 sama
 func main() {
-	var karakter string
+	var hurufKonsonan string
 
 	fmt.Print("Masukkan huruf : ")
-	fmt.Scan(&karakter)
-	karakter = strings.ToLower(karakter)
+	fmt.Scan(&hurufKonsonan)
+	hurufKonsonan = strings.ToLower(hurufKonsonan)
 
-	if karakter != "a" && karakter != "e" && karakter != "i" && karakter != "o" && karakter != "u" {
+	if hurufKonsonan != "a" && hurufKonsonan != "e" && hurufKonsonan != "i" && hurufKonsonan != "o" && hurufKonsonan != "u" {
 		fmt.Println("true")
 	} else {
 		fmt.Println("false")

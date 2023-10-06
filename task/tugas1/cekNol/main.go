@@ -5,6 +5,7 @@ import (
 )
 
 
+//soal no 15
 func main() {
 	var bilangan int
 

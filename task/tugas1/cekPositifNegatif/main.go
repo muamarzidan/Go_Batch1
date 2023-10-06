@@ -2,36 +2,36 @@ package main
 
 import (
 	"fmt"
-	// "strings"
 )
 
-//9
+
+//soal no 10
+func main() {
+    var bilanganNegatif int
+
+    fmt.Print("Masukkan bilangan bulat : ")
+    fmt.Scan(&bilanganNegatif)
+
+    if bilanganNegatif < 0 {
+        fmt.Println("true")
+    } else {
+        fmt.Println("false")
+    }
+}
+
+//soal no 11
 // func main() {
-//     var bilangan int
+//     var bilanganPositif int
 
-//     fmt.Print("Masukkan bilangan bulat: ")
-//     fmt.Scan(&bilangan)
+//     fmt.Print("Masukkan bilangan bulat : ")
+//     fmt.Scan(&bilanganPositif)
 
-//     if bilangan < 0 {
+//     if bilanganPositif > 0 {
 //         fmt.Println("true")
 //     } else {
 //         fmt.Println("false")
 //     }
 // }
-
-//10
-func main() {
-    var bilangan int
-
-    fmt.Print("Masukkan bilangan bulat: ")
-    fmt.Scan(&bilangan)
-
-    if bilangan < 0 {
-        fmt.Println("false")
-    } else {
-        fmt.Println("true")
-    }
-}
 
 
 
