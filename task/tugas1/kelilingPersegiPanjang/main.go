@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"math"
+)
 
 func main() {
 	var panjang, lebar float64
@@ -12,6 +15,7 @@ func main() {
 	fmt.Scan(&lebar)
 
 	var kelilingPersegiPanjang float64  = 2 * (panjang + lebar)
+	kelilingPersegiPanjang = math.Round(kelilingPersegiPanjang * 10) / 10
 
 	fmt.Println("Keliling persegi panjang : ", kelilingPersegiPanjang)
 }
