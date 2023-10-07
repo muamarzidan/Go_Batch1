@@ -8,7 +8,7 @@ import (
 func main() {
 	var bilangan int
 
-	fmt.Printf("Bilangan angka : ")
+	fmt.Printf("Masukan bilangan angka : ")
 	fmt.Scan(&bilangan)
 
 	if bilangan%2 != 0 {

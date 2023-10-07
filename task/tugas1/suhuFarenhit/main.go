@@ -16,4 +16,4 @@ func main () {
 	fahrenheit = math.Round(fahrenheit * 10) / 10
 
 	fmt.Println("Hasil convert menjadi satuan fahrenheit adalah :", fahrenheit, "derajat")
-}
+} 
