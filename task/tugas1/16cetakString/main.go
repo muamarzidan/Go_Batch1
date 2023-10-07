@@ -9,8 +9,8 @@ import (
 func main() {
 	var namaSaya string
 
-	fmt.Print("Masukkan kata : ")
+	fmt.Print("Masukkan nama : ")
 	fmt.Scan(&namaSaya)
 
-	fmt.Println("Hai, " + namaSaya + ", saya sebenarnya adalah manusia :)")
+	fmt.Println("Hai, " + namaSaya)
 }

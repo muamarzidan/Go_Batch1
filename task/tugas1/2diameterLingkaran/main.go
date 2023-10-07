@@ -14,13 +14,8 @@ func main() {
     fmt.Print("diketahui luas lingkaran : ")
     fmt.Scan(&luasLingkaran)
 
-    if luasLingkaran <= 0 {
-        fmt.Println("Masukan luas lingkaran dengan angka yang benar")
-        return
-    }
-
     var diameter float64 = 2 * math.Sqrt(luasLingkaran/phi)
-    diameter = math.Round(diameter*10)/10
+    diameter = math.Round(diameter*100) / 100 //handle if the input is bilanganya terlalu banyak koma, jadi di handle biar hanya ada 2 saja di output
 
-    fmt.Println("Jadi, diameter lingkarannya adalah", diameter)
+    fmt.Println("Jadi, dengan luas lingkaran", luasLingkaran, ", diameter lingkarannya adalah", diameter)
 }

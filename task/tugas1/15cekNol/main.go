@@ -5,16 +5,19 @@ import (
 )
 
 
-//soal no 15
+// soal no 15
 func main() {
 	var bilangan int
+	var Hasil bool
 
 	fmt.Print("Masukkan sebuah bilangan bulat : ")
 	fmt.Scan(&bilangan)
 
 	if bilangan == 0 {
-		fmt.Println("true")
+		Hasil = true
+		fmt.Println(Hasil)
 	} else {
-		fmt.Println("false")
+		Hasil = false
+		fmt.Println(Hasil)
 	}
 }
