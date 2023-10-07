@@ -9,7 +9,7 @@ func main() {
 	var bilangan int
 	var Hasil bool
 
-	fmt.Print("Bilangan bilangan bulat : ")
+	fmt.Print("Masukan sebuah bilangan bulat : ")
 	fmt.Scan(&bilangan)
 
 	if bilangan%2 != 0 {
