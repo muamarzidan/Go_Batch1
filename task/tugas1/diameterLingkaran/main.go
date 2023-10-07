@@ -5,11 +5,13 @@ import (
     "math"
 )
 
+
+//soal no 2
 func main() {
     const phi float64 = 3.14
     var luasLingkaran float64
 
-    fmt.Print("luas lingkaran : ")
+    fmt.Print("diketahui luas lingkaran : ")
     fmt.Scan(&luasLingkaran)
 
     if luasLingkaran <= 0 {
@@ -20,5 +22,5 @@ func main() {
     var diameter float64 = 2 * math.Sqrt(luasLingkaran/phi)
     diameter = math.Round(diameter*10)/10
 
-    fmt.Println("Diameter lingkaran adalah", diameter)
+    fmt.Println("Jadi, diameter lingkarannya adalah", diameter)
 }

@@ -5,6 +5,8 @@ import (
 	"math"
 )
 
+
+//soal no 4
 func main() {
 	var panjang, lebar float64
 
@@ -17,5 +19,5 @@ func main() {
 	var kelilingPersegiPanjang float64  = 2 * (panjang + lebar)
 	kelilingPersegiPanjang = math.Round(kelilingPersegiPanjang * 10) / 10
 
-	fmt.Println("Keliling persegi panjang : ", kelilingPersegiPanjang)
+	fmt.Println("Jadi, keliling persegi panjang : ", kelilingPersegiPanjang)
 }

@@ -5,6 +5,8 @@ import (
 	"math"
 )
 
+
+//soal no 1
 func main() {
 	var jariJari float64
 	const phi float64 = 3.14
@@ -15,7 +17,7 @@ func main() {
 	luasLingkaran := phi * jariJari * jariJari
 	luasLingkaran = math.Round(luasLingkaran*10)/10
 
-	fmt.Println("Luas lingkaran : ", luasLingkaran)
+	fmt.Println("Jadi, Luas lingkaran adalah : ", luasLingkaran)
 }
 
 
