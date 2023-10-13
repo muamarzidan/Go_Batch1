@@ -1,0 +1,161 @@
+Jawaban dikirimkan ke: https://s.id/1UUll
+Format file: Nama_NIM_Kelas
+
+1) 
+Buatlah program dalam bahasa Go untuk menghitung luas lingkaran. 
+
+Masukan berupa jari-jari lingkaran dalam bilangan real.
+
+Keluaran berupa luas lingkaran dalam bilangan real.
+
+Petunjuk: Gunakan konstanta pi = 3.14
+
+------------------
+2)
+Buatlah program untuk menghitung diameter lingkaran jika diberikan luas lingkaran. 
+
+Masukan berupa bilangan real yang menyatakan luas lingkaran. 
+
+Keluaran berupa diamater lingkaran dalam bilangan real.
+
+Petunjuk: Diameter lingkaran adalah 2 x panjang jari-jari. Gunakan pi = 3.14
+
+--------------
+3)
+Buatlah program dalam bahasa Go untuk mengkonversi suhu dari derajat Celsius menjadi derajat Reamur.
+Masukan berupa bilangan real yang menyatakan suhu dalam derajat Celsius.
+
+Keluaran berupa derajat Reamur hasil konversi dalam bilangan real.
+
+Petunjuk: Rumus konversi suhu dari Celcius ke Reamur adalah sebagai berikut:
+
+( R = 4/5*C )
+---------------------
+4)
+Buatlah program dalam bahasa Go untuk menghitung keliling persegi panjang.
+
+Masukan berupa panjang dan lebar dari persegi panjang dalam bilangan bulat. 
+
+Keluaran berupa keliling persegi panjang dalam bilangan bulat.
+
+------------------
+5)
+Buatlah program dalam bahasa Go untuk mengkonversi suhu dari derajat Celsius menjadi derajat Fahrenheit.
+
+Masukan berupa bilangan real yang menyatakan suhu dalam derajat Celsius.
+
+Keluaran berupa suhu dalam derajat Fahrenheit hasil konversi.
+
+Petunjuk: Rumus konversi suhu adalah sebagai berikut:
+
+( F = 9/5*C + 32 )
+------------------------------
+6)
+Buatlah program dalam bahasa Go untuk mengkonversi suhu dari derajat Celsius menjadi Kelvin.
+
+Masukan berupa bilangan real yang menyatakan suhu dalam derajat Celsius.
+
+Keluaran berupa suhu dalam Kelvin hasil konversi.
+
+Petunjuk: Rumus konversi suhu adalah sebagai berikut:
+
+( K = C + 273 )
+------------------------
+7)
+Buatlah program dalam bahasa Go untuk mengkonversi suhu dari derajat Celsius menjadi Kelvin.
+
+Masukan berupa bilangan real yang menyatakan suhu dalam derajat Celsius.
+
+Keluaran berupa suhu dalam Kelvin hasil konversi.
+
+Petunjuk: Rumus konversi suhu adalah sebagai berikut:
+
+( K = C + 273 )
+
+----------------------------
+8)
+Buatlah program dalam bahasa Go untuk menghitung luas permukaan bola. 
+Masukan berupa jari-jari bola dalam bilangan real.
+
+Keluaran berupa luas permukaan bola dalam bilangan real.
+
+Petunjuk:  Rumus luas permukaan bola adalah sebagai berikut
+luas permukaan bola = ( 4 *pi* r^2)
+gunakan pi = 3.14
+r = jari-jari
+---------------
+9)
+Buatlah program dalam bahasa Go untuk menentukan apakah bilangan yang dimasukkan adalah bilangan ganjil atau bukan. Bilangan ganjil adalah bilangan bulat yang tidak habis dibagi 2, atau bilangan bulat yang jika dibagi 2 sisanya bukan 0.
+
+Masukan berupa sebuah bilangan bulat.
+
+Keluaran berupa boolean true jika bilangan ganjil atau false jika bukan bilangan ganjil.
+
+--------------
+10)
+Buatlah program dalam bahasa Go untuk menentukan apakah bilangan bulat dimasukkan termasuk bilangan negatif atau bukan. 
+
+Masukan berupa sebuah bilangan bulat.
+
+Keluaran berupa boolean true jika termasuk bilangan negatif atau false jika bukan bilangan negatif.
+--------------------------------
+
+11)
+Buatlah program dalam bahasa Go untuk menentukan apakah bilangan bulat yang dimasukkan termasuk positif atau bukan. 
+Masukan berupa sebuah bilangan bulat.
+
+Keluaran berupa boolean true jika termasuk bilangan positif atau false jika tidak termasuk.
+------------------------
+12)
+Buatlah program dalam bahasa Go untuk memeriksa apakah karakter yang diinputkan termasuk huruf hidup (vokal) atau bukan. 
+
+Masukan berupa sebuah huruf (karakter).
+
+Keluaran berupa boolean true jika karakter termasuk huruf vokal atau false jika bukan.
+
+Catatan: Masukan selalu dalam bentuk huruf kecil. 
+----------------------
+13)
+Buatlah program dalam bahasa Go untuk memeriksa apakah huruf yang diinputkan termasuk huruf mati (konsonan) atau bukan. 
+
+Masukan berupa sebuah huruf (karakter).
+
+Keluaran berupa boolean true jika huruf termasuk konsonan atau false jika bukan.
+
+Catatan: Masukan selalu dalam huruf kecil.
+---------------
+14)
+Buatlah program dalam bahasa Go untuk memeriksa apakah huruf yang diinputkan termasuk huruf mati (konsonan) atau bukan. 
+
+Masukan berupa sebuah huruf (karakter).
+
+Keluaran berupa boolean true jika huruf termasuk konsonan atau false jika bukan.
+
+Catatan: Masukan selalu dalam huruf kecil.
+
+-------------------
+15)
+Buatlah program dalam bahasa Go untuk menentukan apakah bilangan bulat yang dimasukkan adalah bilangan nol atau bukan. 
+
+Masukan berupa sebuah bilangan bulat.
+
+Keluaran berupa boolean true jika bilangan itu adalah nol atau false jika bukan.
+------------------
+16)
+Buatlah program dalam bahasa Go untuk mencetak string nama. 
+
+Masukan berupa nama dengan tipe data string.
+
+Keluaran berupa sebuah string dengan format "Hai, <nama>" sebagaimana contoh.
+---------------
+17)
+Buatlah program dalam bahasa Go untuk mencetak karakter yang dimasukkan. 
+Masukan berupa sebuah karakter.
+
+Keluaran berupa sebuah karakter sebagaimana contoh.
+
+Petunjuk: Gunakan fmt.Scanf untuk pembacaan masukan dan fmt.Printf untuk pencetakan. 
+
+-----------------------
+
+

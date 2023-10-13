@@ -6,7 +6,7 @@ import "fmt"
 diketahui :
 volume kopi = 500gr
 gula = 1000gr
-volume 1 sendok = 25ml	
+volume 1 sendok = 25ml
 massa jenis kopi 0,0025 gr/ml
 massa jenis gula 0,001 gr
 perbandingan pembuatan kopi = 5 : 1 = gula : kopi agar sama-sama habis
@@ -16,7 +16,7 @@ perbandingan pembuatan kopi = 5 : 1 = gula : kopi agar sama-sama habis
 progam coffeAlgorithm
 
 kamus
-volKopi : integer = 500 
+volKopi : integer = 500
 volgula : integer = 1000
 kopi : integer = 0
 
@@ -30,8 +30,8 @@ repeat
 	output("Masukan 125 ml gula")
 	volGula - (125 x 0.001)
 	output("Aduk kopi dan gula")
-	output("Kopi ke %d siap", kopi+1)
-	kopi + 1
+	output("Kopi ke kopi+1 siap", kopi+1)
+	kopi++
 until volKopi <= 0 or volGula <= 0
 
 output("Total kopi yang dibuat:", kopi)
@@ -49,16 +49,18 @@ func main() {
 	var volKopi float64 = 500
 	var volGula float64 = 1000
 	var kopi int = 0
+	var volSendokGula float64 = 125
+	var volSendokKopi float64 = 25
 
 	for volKopi > 0 && volGula > 0 {
 		fmt.Println("Ambil gelas")
 
 		fmt.Println("Masukan 25 ml kopi")
-		volKopi = volKopi - (25 * 0.0025) //menjadi 0,0625 gr
+		volKopi = volKopi - (volSendokKopi * 0.0025) //menjadi 0,0625 gr
 		fmt.Println("Masukan 125 ml gula")
-		volGula = volGula - (125 * 0.001) //menjadi 0,0625 gr
+		volGula = volGula - (volSendokGula * 0.001) //menjadi 0,0625 gr
 
-		fmt.Printf("Kopi ke %d siap", kopi+1)
+		fmt.Printf("Kopi ke %d siap\n", kopi+1)
 		kopi++
 	}
 
