@@ -2,15 +2,16 @@ package main
 
 import "fmt"
 
-func main () {
-	var nPersegi, nSisi int;
-	fmt.Scan(&nPersegi, &nSisi);
-	
-	for i := 0; i < nPersegi; i++ {
-	keliling := nSisi * 4;
-	luas := nSisi * nSisi;
+func main() {
+    var n, sisi int
+    fmt.Scan(&n)
 
-		fmt.Println("Keliling persegi: ", keliling);
-		fmt.Println("Luas persegi: ", luas); 
-	}
+    for i := 0; i < n; i++ {
+        fmt.Scan(&sisi)
+
+        luas := sisi * sisi
+        keliling := 4 * sisi
+
+        fmt.Printf("%d %d\n", luas, keliling)
+    }
 }
