@@ -3,7 +3,10 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println("NAMA : MuamarZidanTriAntoro")
-	fmt.Println("NIM : 103012300381")
-	fmt.Println("KELAS : IF-47-11")
+	var nama1 string = "Asri"
+	var nama2 string = "IKI"
+
+	fmt.Println("Halo", nama1)
+	fmt.Println("hallo", nama2)
+
 }

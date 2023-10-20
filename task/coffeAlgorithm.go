@@ -19,6 +19,8 @@ kamus
 volKopi : integer = 500
 volgula : integer = 1000
 kopi : integer = 0
+volSendokKopi real : 25
+volSendokGula real : 125
 
 algoritma
 
@@ -26,9 +28,9 @@ for volKopi > 0 and volGula > 0 do
 repeat
 	output("Ambil gelas")
 	output("Masukan 25 ml kopi")
-	volKopi - (25 x 0.0025)
+	volKopi <- volKopi - (volSendokKopi x 0.0025)
 	output("Masukan 125 ml gula")
-	volGula - (125 x 0.001)
+	volGula <- volKopi - (volSendokGula x 0.001)
 	output("Aduk kopi dan gula")
 	output("Kopi ke kopi+1 siap", kopi+1)
 	kopi++
@@ -49,8 +51,8 @@ func main() {
 	var volKopi float64 = 500
 	var volGula float64 = 1000
 	var kopi int = 0
-	var volSendokGula float64 = 125
-	var volSendokKopi float64 = 25
+	var volSendokKopi float64 = 20
+	var volSendokGula float64 = 100
 
 	for volKopi > 0 && volGula > 0 {
 		fmt.Println("Ambil gelas")
@@ -65,12 +67,13 @@ func main() {
 	}
 
 	fmt.Println("Total kopi yang dibuat:", kopi)
-	if volKopi <= 0 {
+	if volKopi < 0 {
 		fmt.Println("Gula habis. Sisa Gula:", volGula, "gr")
 	}
-	if volGula <= 0 {
+	if volGula < 0 {
 		fmt.Println("Kopi habis. Sisa kopi:", volKopi, "gr")
 	}
+
 }
 
 /*
