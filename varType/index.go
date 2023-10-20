@@ -15,7 +15,6 @@ func main() {
 	// typeChar()
 	// typeRune()
 	// typeBoolean()
-	typeBilBul()
 }
 
 // func typeInt() {
@@ -54,10 +53,4 @@ func main() {
 // 	fmt.Println(KK)
 // }
 
-func typeBilBul() {
-	var a, b int
-	a = 1
-	b = 2
-	fmt.Println("Nilai a =", a, "b =", b)
-}
 
