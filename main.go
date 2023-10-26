@@ -4,10 +4,46 @@ import "fmt"
 
 // import "fmt"
 
-//MENCETAK STRING
-func main() {
-	fmt.Printf("Hello, %s! Your age is %d\n", "John", 30)
+
+func main () {
+	var xi, total int;
+	total  = 0;
+	fmt.Scan(&xi)
+	for xi % 2 == 0 {
+		fmt.Scan(xi)
+		total = total + xi
+	}
+	fmt.Println(total)
 }
+
+// func main () {
+// 	var semester int;
+// 	var ipk float64;
+// 	var publiskasi, lulus bool;
+
+// 	fmt.Scan(&semester, &ipk, &publiskasi		)
+
+// 	lulus = semester <= 8 && semester >=7 && ipk >= 3.50 && publiskasi
+
+// 	fmt.Println(lulus)
+// }
+
+
+// func main() {
+// 	var id, d, m, y int
+	
+// 	fmt.Scan(&id)
+	
+// 	d = (id / 100000) / 100 % 100
+// 	// m = (id / 100000) % 100
+// 	// y = (id % 100000) / 10
+
+// 	fmt.Printf("saya lahir pada tanggal %d bulan ke %d dan tahun ke %d\n", d, m, y)
+// }
+//MENCETAK STRING
+// func main() {
+// 	fmt.Printf("Hello, %s! Your age is %d\n", "John", 30)
+// }
 
 // func main() {
 // 	fmt.Print("Hello, World!2")
