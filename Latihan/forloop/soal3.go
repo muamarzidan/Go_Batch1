@@ -1,0 +1,17 @@
+package main
+
+import "fmt"
+
+func main() {
+	var nMahasiswa, jumlahWaktu, waktuHari int
+	fmt.Scan(&nMahasiswa)
+
+	for i := 0; i < nMahasiswa; i++ {
+		fmt.Scan(&waktuHari)
+		jumlahWaktu += waktuHari
+	}
+
+	rata_rata := float64(jumlahWaktu) / float64(nMahasiswa)
+	// fmt.Println(rata_rata)
+	fmt.Printf("%.3f\n", rata_rata)// to show how many number desimal 0 nya, use the point after % nya gabung angka to calculate
+}
