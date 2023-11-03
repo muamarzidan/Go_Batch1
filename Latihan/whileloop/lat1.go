@@ -5,13 +5,9 @@ import "fmt"
 func main() {
     var x, total int
     total = 0
-    for {
+    for x%2 == 0{
         fmt.Scan(&x)
-        if x%2 == 0 {
-            total = total + x
-        } else {
-            break
-        }
+        total = total + x
     }
     fmt.Println(total)
-}
+}   

@@ -3,15 +3,14 @@ package main
 import "fmt"
 
 func main() {
-	var nMahasiswa, jumlahWaktu, waktuHari int
-	fmt.Scan(&nMahasiswa)
+	var jumlahsiswa, waktuHari, totalWaktu int
+	fmt.Scan(&jumlahsiswa)
 
-	for i := 0; i < nMahasiswa; i++ {
+	for i := 0; i < jumlahsiswa; i++ {
 		fmt.Scan(&waktuHari)
-		jumlahWaktu += waktuHari
+		totalWaktu = totalWaktu + waktuHari
 	}
 
-	rata_rata := float64(jumlahWaktu) / float64(nMahasiswa)
-	// fmt.Println(rata_rata)
-	fmt.Printf("%.3f\n", rata_rata)// to show how many number desimal 0 nya, use the point after % nya gabung angka to calculate
+	rata_rata := float64(totalWaktu) / float64(jumlahsiswa)
+	fmt.Printf("%.3f\n", rata_rata) // to show how many number desimal 0 nya, use the point after % nya gabung angka to calculate
 }

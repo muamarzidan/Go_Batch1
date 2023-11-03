@@ -2,19 +2,67 @@ package main
 
 import "fmt"
 
-// import "fmt"
+// func main() {
+// 	var bil float64
+// 	var bilBulat int64
+// 	fmt.Scan(&bil)
+
+// 	bilBulat = int64(bil)
+// 	bilDes := bil - float64(bilBulat)
+
+// 	fmt.Printf("%f %d",bilDes, bilBulat)
+// }
 
 
-func main () {
-	var xi, total int;
-	total  = 0;
-	fmt.Scan(&xi)
-	for xi % 2 == 0 {
-		fmt.Scan(xi)
-		total = total + xi
-	}
-	fmt.Println(total)
-}
+
+// func main () {
+// 	var bil, i int
+// 	fmt.Scan(&bil)
+// 	for i = bil; i > 0; i-- {
+// 		fmt.Print(i, "x")
+// 	}
+// }
+
+
+
+// func main () {
+// 	var input, bil1, bil2, bil3, bil4, bil5 int
+// 	fmt.Scan(&input)
+
+// 	bil1 = input / 10000
+// 	bil2 = input / 1000 % 10
+// 	bil3 = input / 100 % 10
+// 	bil4 = input / 10 % 10
+// 	bil5 = input % 10
+
+// 	fmt.Printf("%d %d %d %d %d\n", bil5, bil4, bil3, bil2, bil1)
+// }
+
+
+
+// func main() {
+// 	var n, m, i int
+// 	fmt.Scan(&n, &m)
+// 	for i = 1; i <= n; i++ {
+// 		fmt.Printf("%d", i%m)
+// 	}
+// 	fmt.Println()
+// }
+
+
+
+// func main () {
+// 	var xi, total int;
+// 	total  = 0;
+// 	fmt.Scan(&xi)
+// 	for xi % 2 == 0 {
+// 		fmt.Scan(xi)
+// 		total = total + xi
+// 	}
+// 	fmt.Println(total)
+// }
+
+
 
 // func main () {
 // 	var semester int;
@@ -29,52 +77,17 @@ func main () {
 // }
 
 
+
 // func main() {
 // 	var id, d, m, y int
-	
+
 // 	fmt.Scan(&id)
-	
+
 // 	d = (id / 100000) / 100 % 100
 // 	// m = (id / 100000) % 100
 // 	// y = (id % 100000) / 10
 
 // 	fmt.Printf("saya lahir pada tanggal %d bulan ke %d dan tahun ke %d\n", d, m, y)
 // }
-//MENCETAK STRING
-// func main() {
-// 	fmt.Printf("Hello, %s! Your age is %d\n", "John", 30)
-// }
 
-// func main() {
-// 	fmt.Print("Hello, World!2")
-// }
 
-// func main() {
-// 	fmt.Printf("Hello, World!3")
-// }
-
-// func main() {
-// 	fmt.Printf("%s\n", "Hello, World!4")
-// }
-
-// func main () {
-// 	var a string
-// 	a = "Hello, World!5"
-// 	fmt.Println(a)
-// }
-
-//MENCETAK INTEGER
-// func main() {
-// 	var a int
-// 	a = 10
-// 	fmt.Println(a)
-// }
-
-// func main () {
-// 	fmt.Println(3.13)
-// }
-
-//MENCETAK CHAR
-// func main () {
-// 	fmt.Printf("%c\n" , 'A')
-// }

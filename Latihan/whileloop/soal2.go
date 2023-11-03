@@ -1,18 +1,14 @@
 package main
 
-import "fmt"
-
+import main 
 
 func main() {
-    var hasil, tf int;
-    hasil = 0;
+	var saldo, tf int;
+	saldo = 0;
 
-    for {
-        fmt.Scan(&tf)
-        if tf == 0{
-			break
-		}
-        hasil = hasil + tf
-    };
-    fmt.Println(hasil);
-};
+	for tf != 0 {
+		saldo = saldo + tf
+		fmt.Scan(&tf)
+	};
+	fmt.Println(saldo);
+}

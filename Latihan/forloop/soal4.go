@@ -7,7 +7,6 @@ func main () {
 	fmt.Scan(&n)
 
 	faktorial = 1
-
 	for i := 1; i <= n; i++ {
 		faktorial = faktorial * i
 	}
