@@ -3,8 +3,8 @@ package main
 import "fmt"
 
 func main() {
-    var X, X2, total int
-    fmt.Scan(&X)
+    var X, X2, total int;
+    fmt.Scan(&X);
 
     for X != 0 {
         X2 = X % 10
@@ -13,6 +13,6 @@ func main() {
         total = total + X2
     }
 
-    fmt.Println()
-    fmt.Println(total)
+    fmt.Println();
+    fmt.Println(total);
 }
