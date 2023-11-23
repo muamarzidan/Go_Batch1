@@ -10,4 +10,4 @@ func main() {
         total = total + x
     }
     fmt.Println(total);
-}   
+}
