@@ -49,7 +49,7 @@ func main() {
 	// } else if angka%5 == 0 {
 	// 	fmt.Println("Kelipatan 5")
 	// }
-	//make pseudocode 
+	//make pseudocode
 	//program Kelipatan
 	//kamus
 	//angka : integer
@@ -124,7 +124,7 @@ func main() {
 	//make pseudocode
 	//program Temperatur
 	//kamus
-	//suhu1, suhu2, suhu3, suhu4, suhu5 : float
+	//suhu1, suhu2, suhu3, suhu4, suhu5 : real
 	//algoritma
 	//	input(suhu1, suhu2, suhu3, suhu4, suhu5)
 	//	if suhu2 > suhu1 && suhu3 > suhu2 && suhu4 > suhu3 && suhu5 > suhu4 then
@@ -152,7 +152,7 @@ func main() {
 	//make pseudocode
 	//program Profit
 	//kamus
-	//hasilBulanIni, hasilBulanLalu, profit float
+	//hasilBulanIni, hasilBulanLalu, profit real
 	//algoritma
 	//	input(hasilBulanIni, hasilBulanLalu)
 	//	if hasilBulanIni > hasilBulanLalu then
@@ -168,7 +168,7 @@ func main() {
 
 	//latihan7 LigaSepakBola
 	// var gol1, gol2, gol3, gol4, goalTerbanyak, goalTerdikit int
-    // fmt.Scan(&gol1, &gol2, &gol3, &gol4)
+	// fmt.Scan(&gol1, &gol2, &gol3, &gol4)
 
 	// goalTerbanyak = gol1
 	// goalTerdikit = gol1
@@ -218,5 +218,57 @@ func main() {
 	//	output(goalTerbanyak, goalTerdikit)
 	//endprogram
 
+	//latihan8 Parkir
+	// nanti dulu susah
 
+	//latihan9 Akhir Tahun
+	// var cashback, diskon, membership bool
+	// var totalBelanja float64
+
+	// fmt.Scan(&totalBelanja, &membership)
+	// if totalBelanja >= 100.0 {
+	// 	if membership == true {
+	// 		diskon = true
+	// 		if totalBelanja >= 200.0 {
+	// 			cashback = true
+	// 			totalBelanja = totalBelanja - (totalBelanja * 0.1) // 10%
+	// 			totalBelanja = totalBelanja - 75000
+	// 		} else {
+	// 			cashback = false
+	// 			totalBelanja = totalBelanja - (totalBelanja * 0.1)
+	// 		}
+	// 	} else {
+	// 		diskon = true
+	// 		totalBelanja = totalBelanja - (totalBelanja * 0.1)
+	// 	}
+	// }
+	// fmt.Println("Kartu?", membership, "Diskon?", diskon, "Cashback?", cashback, "Total Belanja", totalBelanja)
+	//make pseudocode
+	//program AkhirTahun
+	//kamus
+	//cashback, diskon, membership : boolean
+	//totalBelanja : real
+	//algoritma
+	//	input(totalBelanja, membership)
+	//	if totalBelanja >= 100.0 then
+	//		if membership == true then
+	//			diskon = true
+	//			if totalBelanja >= 200.0 then
+	//				cashback = true
+	//				totalBelanja = totalBelanja - (totalBelanja * 0.1) // 10%
+	//				totalBelanja = totalBelanja - 75000
+	//			else
+	//				cashback = false
+	//				totalBelanja = totalBelanja - (totalBelanja * 0.1)
+	//			endif
+	//		else
+	//			diskon = true
+	//			totalBelanja = totalBelanja - (totalBelanja * 0.1)
+	//		endif
+	//	endif
+	//	output("Kartu?", membership, "Diskon?", diskon, "Cashback?", cashback, "Total Belanja", totalBelanja)
+	//endprogram
+
+	//latihan10 Avatar
+	// nanti dulu susah
 }
