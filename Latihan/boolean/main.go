@@ -50,11 +50,30 @@ func main() {
 
 
 	//soal 5
-	var a, b, c int;
-	var cek bool;
+	// var a, b, c int;
+	// var cek bool;
+	// fmt.Scan(&a, &b, &c);
 
-	cek = true;
+	// cek = (a + b) / 2 == c || (a + c) / 2 == b || (b + c) / 2 == a;
+	// fmt.Println(cek);
 
-	cek = (a + b) / 2 == c || (a + c) / 2 == b || (b + c) / 2 == a;
-	fmt.Println(cek);
+
+	//soal 6
+	
+
+
+	//soal susah
+	// var jumlahDigit, digit, digitSekarang int;
+	// var cek bool;
+
+	// fmt.Scan(&jumlahDigit, &digit);
+	// cek = false;
+	// digitSekarang = digit;
+
+	// for i := 0; i < jumlahDigit && cek == true; i++ {
+	// 	fmt.Scan(&digit);
+	// 	cek = (digitSekarang % 10) < ((digitSekarang / 10) % 10);
+	// 	digitSekarang = digitSekarang / 10;
+	// }
+	// fmt.Println(cek);
 }

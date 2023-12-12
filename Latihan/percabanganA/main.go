@@ -4,19 +4,6 @@ import "fmt"
 
 func main() {
 	//latihan1 Konsonan
-	// var kar rune
-	// fmt.Print("Masukkan satu karakter huruf: ")
-	// fmt.Scanf("%c", &kar)
-	// if (kar >= 'a' && kar <= 'z') || (kar >= 'A' && kar <= 'Z') {
-	//     if kar == 'a' || kar == 'e' || kar == 'i' || kar == 'o' || kar == 'u' ||
-	//         kar == 'A' || kar == 'E' || kar == 'I' || kar == 'O' || kar == 'U' {
-	//         fmt.Println("Bukan konsonan")
-	//     } else {
-	//         fmt.Println("Konsonan")
-	//     }
-	// } else {
-	//     fmt.Println("Bukan huruf")
-	// }
 	// var konsonan string;
 	// fmt.Scan(&konsonan);
 
@@ -270,5 +257,61 @@ func main() {
 	//endprogram
 
 	//latihan10 Avatar
-	// nanti dulu susah
+	var bilP, appdewasaDiv, appdewasaMod, appkecilDiv, appkecilMod, takberangkat int
+	fmt.Scan(&bilP)
+
+	if bilP <= 15 {
+		appdewasaDiv = bilP / 5
+		appdewasaMod = bilP % 5
+
+		if appdewasaMod != 0 {
+			appdewasaDiv = appdewasaDiv + 1
+		}
+		fmt.Println("Dewasa", appdewasaDiv)
+	} else if bilP > 15 {
+		appdewasaDiv = 3
+
+		if bilP <= 25 {
+			appkecilDiv = (bilP - 15) / 2
+			appkecilMod = (bilP - 15) % 2
+
+			if appkecilMod != 0 {
+				appkecilDiv = appkecilDiv + 1
+			}
+			fmt.Println("Dewasa",appdewasaDiv, "Kecil", appkecilDiv)
+		} else if bilP > 25 {
+			appkecilDiv = 5
+			takberangkat = bilP - 25
+			fmt.Println( "Dewasa", appdewasaDiv , "kecil", appkecilDiv, "tak berangkat", takberangkat)
+		}
+	}
+	//make pseudocode
+	//program Avatar
+	//kamus
+	//bilP, appdewasaDiv, appdewasaMod, appkecilDiv, appkecilMod, takberangkat : integer
+	//algoritma
+	//	input(bilP)
+	//	if bilP <= 15 then
+	//		appdewasaDiv = bilP / 5
+	//      appdewasaMod = bilP % 5
+	//		if appdewasaMod != 0 then
+	//			appdewasaDiv = appdewasaDiv + 1
+	//		endif
+	//		output("Dewasa", appdewasaDiv)
+	//	else if bilP > 15 then
+	//		appdewasaDiv = 3
+	//		if bilP <= 25 then
+	//			appkecilDiv = (bilP - 15) / 2
+	//			appkecilMod = (bilP - 15) % 2
+	//			if appkecilMod != 0 then
+	//				appkecilDiv = appkecilDiv + 1
+	//			endif
+	//			output("Dewasa",appdewasaDiv, "Kecil", appkecilDiv)
+	//		else if bilP > 25 then
+	//			appkecilDiv = 5
+	//			takberangkat = bilP - 25
+	//			output("Dewasa", appdewasaDiv , "kecil", appkecilDiv, "tak berangkat", takberangkat)
+	//		endif
+	//	endif
+	//endprogram
 }
