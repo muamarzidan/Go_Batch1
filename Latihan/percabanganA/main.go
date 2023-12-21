@@ -3,6 +3,25 @@ package main
 import "fmt"
 
 func main() {
+	//contoh soal1
+	var cekHuruf byte
+	fmt.Scanf("%c", &cekHuruf)
+
+	if 'a' <= cekHuruf && cekHuruf <= 'z' || 'A' <= cekHuruf && cekHuruf <= 'Z' {
+		fmt.Println("Alfabet")
+	} else {
+		fmt.Println("Bukan alfabet")
+	}
+
+	//contoh soal2
+	var N, mobil int
+    fmt.Scan(&N)
+    mobil = N / 7
+    if N % 7 != 0 {
+        mobil = mobil + 1
+    }
+    fmt.Println(mobil)
+
 	//latihan1 Konsonan
 	// var konsonan string;
 	// fmt.Scan(&konsonan);
@@ -77,14 +96,14 @@ func main() {
 	//	endif
 	//endprogram
 
-	//latihan4 Mutlak Absolut
-	// var angka int
-	// fmt.Scan(&angka)
+	// latihan4 Mutlak Absolut
+	var angka int
+	fmt.Scan(&angka)
 
-	// if angka < 0 {
-	//     angka = -angka
-	// }
-	// fmt.Println(angka)
+	if angka < 0 {
+		angka = -angka
+	}
+	fmt.Println(angka)
 	//make pseudocode
 	//program Mutlak_Absolut
 	//kamus
@@ -98,16 +117,16 @@ func main() {
 	//endprogram
 
 	//latihan5 Temperatur
-	// var suhu1, suhu2, suhu3, suhu4, suhu5 float64
-	// fmt.Scan(&suhu1, &suhu2, &suhu3, &suhu4, &suhu5)
+	var suhu1, suhu2, suhu3, suhu4, suhu5 float64
+	fmt.Scan(&suhu1, &suhu2, &suhu3, &suhu4, &suhu5)
 
-	// if suhu2 > suhu1 && suhu3 > suhu2 && suhu4 > suhu3 && suhu5 > suhu4 {
-	// 	fmt.Println("Stabil naik")
-	// } else if suhu2 < suhu1 && suhu3 < suhu2 && suhu4 < suhu3 && suhu5 < suhu4 {
-	// 	fmt.Println("Stabil turun")
-	// } else {
-	// 	fmt.Println("Tidak stabil")
-	// }
+	if suhu2 > suhu1 && suhu3 > suhu2 && suhu4 > suhu3 && suhu5 > suhu4 {
+		fmt.Println("Stabil naik")
+	} else if suhu2 < suhu1 && suhu3 < suhu2 && suhu4 < suhu3 && suhu5 < suhu4 {
+		fmt.Println("Stabil turun")
+	} else {
+		fmt.Println("Tidak stabil")
+	}
 	//make pseudocode
 	//program Temperatur
 	//kamus
@@ -154,29 +173,29 @@ func main() {
 	//endprogram
 
 	//latihan7 LigaSepakBola
-	// var gol1, gol2, gol3, gol4, goalTerbanyak, goalTerdikit int
-	// fmt.Scan(&gol1, &gol2, &gol3, &gol4)
+	var gol1, gol2, gol3, gol4, goalTerbanyak, goalTerdikit int
+	fmt.Scan(&gol1, &gol2, &gol3, &gol4)
 
-	// goalTerbanyak = gol1
-	// goalTerdikit = gol1
+	goalTerbanyak = gol1
+	goalTerdikit = gol1
 
-	// if goalTerbanyak < gol2 {
-	// 	goalTerbanyak = gol2
-	// } else if gol2 < goalTerdikit {
-	// 	goalTerdikit = gol2
-	// }
+	if goalTerbanyak < gol2 {
+		goalTerbanyak = gol2
+	} else if gol2 < goalTerdikit {
+		goalTerdikit = gol2
+	}
 
-	// if goalTerbanyak < gol3 {
-	// 	goalTerbanyak = gol3
-	// } else if gol3 < goalTerdikit {
-	// 	goalTerdikit = gol3
-	// }
+	if goalTerbanyak < gol3 {
+		goalTerbanyak = gol3
+	} else if gol3 < goalTerdikit {
+		goalTerdikit = gol3
+	}
 
-	// if goalTerbanyak < gol4 {
-	// 	goalTerbanyak = gol4
-	// } else if gol4 < goalTerdikit {
-	// 	goalTerdikit = gol4
-	// }
+	if goalTerbanyak < gol4 {
+		goalTerbanyak = gol4
+	} else if gol4 < goalTerdikit {
+		goalTerdikit = gol4
+	}
 
 	// fmt.Println(goalTerbanyak, goalTerdikit)
 	//make pseudocode
@@ -257,34 +276,34 @@ func main() {
 	//endprogram
 
 	//latihan10 Avatar
-	var bilP, appdewasaDiv, appdewasaMod, appkecilDiv, appkecilMod, takberangkat int
-	fmt.Scan(&bilP)
+	// var bilP, appdewasaDiv, appdewasaMod, appkecilDiv, appkecilMod, takberangkat int
+	// fmt.Scan(&bilP)
 
-	if bilP <= 15 {
-		appdewasaDiv = bilP / 5
-		appdewasaMod = bilP % 5
+	// if bilP <= 15 {
+	// 	appdewasaDiv = bilP / 5
+	// 	appdewasaMod = bilP % 5
 
-		if appdewasaMod != 0 {
-			appdewasaDiv = appdewasaDiv + 1
-		}
-		fmt.Println("Dewasa", appdewasaDiv)
-	} else if bilP > 15 {
-		appdewasaDiv = 3
+	// 	if appdewasaMod != 0 {
+	// 		appdewasaDiv = appdewasaDiv + 1
+	// 	}
+	// 	fmt.Println("Dewasa", appdewasaDiv)
+	// } else if bilP > 15 {
+	// 	appdewasaDiv = 3
 
-		if bilP <= 25 {
-			appkecilDiv = (bilP - 15) / 2
-			appkecilMod = (bilP - 15) % 2
+	// 	if bilP <= 25 {
+	// 		appkecilDiv = (bilP - 15) / 2
+	// 		appkecilMod = (bilP - 15) % 2
 
-			if appkecilMod != 0 {
-				appkecilDiv = appkecilDiv + 1
-			}
-			fmt.Println("Dewasa",appdewasaDiv, "Kecil", appkecilDiv)
-		} else if bilP > 25 {
-			appkecilDiv = 5
-			takberangkat = bilP - 25
-			fmt.Println( "Dewasa", appdewasaDiv , "kecil", appkecilDiv, "tak berangkat", takberangkat)
-		}
-	}
+	// 		if appkecilMod != 0 {
+	// 			appkecilDiv = appkecilDiv + 1
+	// 		}
+	// 		fmt.Println("Dewasa",appdewasaDiv, "Kecil", appkecilDiv)
+	// 	} else if bilP > 25 {
+	// 		appkecilDiv = 5
+	// 		takberangkat = bilP - 25
+	// 		fmt.Println( "Dewasa", appdewasaDiv , "kecil", appkecilDiv, "tak berangkat", takberangkat)
+	// 	}
+	// }
 	//make pseudocode
 	//program Avatar
 	//kamus
