@@ -3,11 +3,6 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println("Nama : Muamar Zidan Tri Antoro")
-	fmt.Println("NIM : 103012300381")
-	fmt.Println("Kelas : IF-47-11")
-	fmt.Println("Jawaban soal ppt Analisis Masalah")
-
 	//cek bilangan prima
 	// var bilangan int
 	// fmt.Print("Masukkan bilangan : ")

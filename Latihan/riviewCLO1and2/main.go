@@ -131,19 +131,19 @@ func main() {
 	//endprogram
 
 	//Soal5 Fibonacci
-	// var n, fibo0, fibo1 int
-    // fmt.Scan(&n)
+	var n, fibo0, fibo1 int
+    fmt.Scan(&n)
 
-    // fibo0 = 0
-    // fibo1 = 1
+    fibo0 = 0
+    fibo1 = 1
 
-    // fmt.Print(fibo0)
+    fmt.Print(fibo0)
 
-    // for i := 1; i <= n; i++ {
-    //     fmt.Print(" ", fibo1)
-    //     fibo0, fibo1 = fibo1, fibo0+fibo1
-    // }
-    // fmt.Println()
+    for i := 1; i <= n; i++ {
+        fmt.Print(" ", fibo1)
+        fibo0, fibo1 = fibo1, fibo0+fibo1
+    }
+    fmt.Println()
 	//make pseudocode
 	//program Fibonacci
 	//kamus
