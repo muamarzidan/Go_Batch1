@@ -3,34 +3,66 @@ package main
 import "fmt"
 
 func main() {
-	//soal 1
-	// var k byte;
-	// var cekK bool;
-	// fmt.Scan(&k);
+	//soal1 Alphanumeric
+	// var char byte
+	// var cekAlphanumeric bool
 
-	// cekK = (k >= 0 && k <= 9) || (k >= 'a' && k <= 'z') || (k >= 'A' && k <= 'Z');
-	// fmt.Println(cekK);
+	// cekAlphanumeric = true
 
+	// fmt.Scanf("%c",&char)
+	// cekAlphanumeric = char >= 'a' && char <= 'z' || char >= 'A' && char <= 'Z' || char >= '0' && char <= '9'
 
-	//soal 2
-	// var tahun int;
-	// var cekTahun bool;
-	// fmt.Scan(&tahun);
+	// fmt.Println(cekAlphanumeric)
+	//make pseudocode
+	//program Alphanumeric
+	//kamus
+	// char : byte
+	// cekAlphanumeric : bool
+	//algoritma
+	// cekAlphanumeric <- true
+	// input char
+	// cekAlphanumeric <- char >= 'a' && char <= 'z' || char >= 'A' && char <= 'Z' || char >= '0' && char <= '9'
+	// output cekAlphanumeric
+	//endprogram
 
-	// cekTahun = (tahun % 4 == 0 && tahun % 100 != 0) || (tahun % 400 == 0);
-	// fmt.Print(cekTahun);
+	//soal2 Kabisat
+	// var tahun int
+	// var cekTahun bool
+	// fmt.Scan(&tahun)
 
+	// cekTahun = (tahun % 4 == 0 && tahun % 100 != 0) || (tahun % 400 == 0)
+	// fmt.Print(cekTahun)
+	//make pseudocode
+	//program tahun_kabisat
+	//kamus
+	// tahun : int
+	// cekTahun : bool
+	//algoritma
+	// input tahun
+	// cekTahun <- (tahun % 4 == 0 && tahun % 100 != 0) || (tahun % 400 == 0)
+	// output cekTahun
+	//endprogram
 
-	//soal 3
-	// var sudutA, sudutB, sudutC int;
-	// var cekSegitiga bool;
-	// fmt.Scanln(&sudutA, &sudutB, &sudutC);
+	//soal3 Segitiga
+	// var sudutA, sudutB, sudutC int
+	// var cekSegitiga bool
 
-	// cekSegitiga = sudutA+sudutB > sudutC && sudutA+sudutC > sudutB && sudutB+sudutC > sudutA;
-	// fmt.Println(cekSegitiga);
+	// fmt.Scanln(&sudutA, &sudutB, &sudutC)
 
+	// cekSegitiga = sudutA+sudutB > sudutC && sudutA+sudutC > sudutB && sudutB+sudutC > sudutA
+	// fmt.Println(cekSegitiga)
+	//make pseudocode
+	//program segitiga
+	//kamus
+	// sudutA, sudutB, sudutC : int
+	// cekSegitiga : bool
+	//algoritma
+	// input sudutA, sudutB, sudutC
+	// cekSegitiga <- sudutA+sudutB > sudutC && sudutA+sudutC > sudutB && sudutB+sudutC > sudutA
+	// output cekSegitiga
+	//endprogram
 
-	//soal 4
+	//soal4 Mini Market
 	// var total int
     // var inginKartu, dapatKartu, dapatDiskon, dapatCashback, Diskon, Cashback bool
 
@@ -47,33 +79,67 @@ func main() {
     // fmt.Println("Kartu?", dapatKartu)
     // fmt.Println("Diskon?", dapatDiskon)
     // fmt.Println("Cashback?", dapatCashback)
+	//make pseudocode
+	//program mini_market
+	//kamus
+	// total : int
+	// inginKartu, dapatKartu, dapatDiskon, dapatCashback, Diskon, Cashback : bool
+	//algoritma
+	// input total, inginKartu
+	// Diskon <- total >= 100000
+	// Cashback <- total >= 200000 && inginKartu
+	// dapatKartu <- inginKartu
+	// dapatDiskon <- Diskon
+	// dapatCashback <- Cashback
+	// output dapatKartu, dapatDiskon, dapatCashback
+	//endprogram
 
+	//soal5 Mid Point
 
-	//soal 5
-	// var a, b, c int;
-	// var cek bool;
-	// fmt.Scan(&a, &b, &c);
+	//soal6 Dua Lingkaran
+	// var a, b, tipus int
+    // var cekIrisan bool
 
-	// cek = (a + b) / 2 == c || (a + c) / 2 == b || (b + c) / 2 == a;
-	// fmt.Println(cek);
+    // fmt.Scan(&a, &b, &tipus)
 
+    // cekIrisan = a + b < tipus || a + tipus < b || tipus + b < a
 
-	//soal 6
-	
+    // fmt.Print(cekIrisan)
+	//make pseudocode
+	//program dua_lingkaran
+	//kamus
+	// a, b, tipus : int
+	// cekIrisan : bool
+	//algoritma
+	// input a, b, tipus
+	// cekIrisan <- a + b < tipus || a + tipus < b || tipus + b < a
+	// output cekIrisan
+	//endprogram
 
+	//soal Pramuka
+	// var n, i int;
+    // var a, b, c, d, e, hasil bool;
 
-	//soal susah
-	// var jumlahDigit, digit, digitSekarang int;
-	// var cek bool;
+	// fmt.Scan(&n)
 
-	// fmt.Scan(&jumlahDigit, &digit);
-	// cek = false;
-	// digitSekarang = digit;
+	// hasil = true
 
-	// for i := 0; i < jumlahDigit && cek == true; i++ {
-	// 	fmt.Scan(&digit);
-	// 	cek = (digitSekarang % 10) < ((digitSekarang / 10) % 10);
-	// 	digitSekarang = digitSekarang / 10;
-	// }
-	// fmt.Println(cek);
+    // for i = 0; i < n && hasil == true; i++ {
+    //     fmt.Scan(&a, &b, &c, &d, &e)
+    //     hasil = a == true && b == true && c == true && d == true && e == true
+    // }
+    // fmt.Println(hasil)
+	//make pseudocode
+	//program pramuka
+	//kamus
+	// n, i : int
+	// a, b, c, d, e, hasil : bool
+	//algoritma
+	// input n
+	// hasil <- true
+	// for i <- 0 to n-1
+	//     input a, b, c, d, e
+	//     hasil <- a == true && b == true && c == true && d == true && e == true
+	// output hasil
+	//endprogram
 }

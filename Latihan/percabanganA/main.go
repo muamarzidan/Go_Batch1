@@ -3,33 +3,14 @@ package main
 import "fmt"
 
 func main() {
-	//contoh soal1
-	var cekHuruf byte
-	fmt.Scanf("%c", &cekHuruf)
-
-	if 'a' <= cekHuruf && cekHuruf <= 'z' || 'A' <= cekHuruf && cekHuruf <= 'Z' {
-		fmt.Println("Alfabet")
-	} else {
-		fmt.Println("Bukan alfabet")
-	}
-
-	//contoh soal2
-	var N, mobil int
-    fmt.Scan(&N)
-    mobil = N / 7
-    if N % 7 != 0 {
-        mobil = mobil + 1
-    }
-    fmt.Println(mobil)
-
-	//latihan1 Konsonan
-	// var konsonan string;
-	// fmt.Scan(&konsonan);
+	//Soal1 Konsonan
+	// var konsonan string
+	// fmt.Scan(&konsonan)
 
 	// if (konsonan == "a" || konsonan == "i" || konsonan == "u" || konsonan == "e" || konsonan == "o") || (konsonan == "A" || konsonan == "I" || konsonan == "U" || konsonan == "E" || konsonan == "O"){
-	// 	fmt.Println("bukan konsonan");
+	// 	fmt.Println("bukan konsonan")
 	// } else {
-	// 	fmt.Println("konsonan");
+	// 	fmt.Println("konsonan")
 	// }
 	//make pseudocode
 	//program Konsonan
@@ -44,7 +25,7 @@ func main() {
 	//	endif
 	//endprogram
 
-	//latihan2 Kelipatan
+	//Soal2	 Kelipatan
 	// var angka int
 	// fmt.Scan(&angka)
 
@@ -54,6 +35,8 @@ func main() {
 	// 	fmt.Println("Kelipatan 3")
 	// } else if angka%5 == 0 {
 	// 	fmt.Println("Kelipatan 5")
+	// } else {
+	// 	fmt.Println("")
 	// }
 	//make pseudocode
 	//program Kelipatan
@@ -67,10 +50,12 @@ func main() {
 	//		output("Kelipatan 3")
 	//	else if angka%5 == 0 then
 	//		output("Kelipatan 5")
+	//	else
+	//		output("")
 	//	endif
 	//endprogram
 
-	//latihan3 Segitiga
+	//Soal3 Segitiga
 	// var sisiA, sisiB, sisiC int
 	// fmt.Scan(&sisiA, &sisiB, &sisiC)
 
@@ -96,14 +81,14 @@ func main() {
 	//	endif
 	//endprogram
 
-	// latihan4 Mutlak Absolut
-	var angka int
-	fmt.Scan(&angka)
+	//Soal Mutlak Absolut
+	// var angka int
+	// fmt.Scan(&angka)
 
-	if angka < 0 {
-		angka = -angka
-	}
-	fmt.Println(angka)
+	// if angka < 0 {
+	// 	angka = -angka
+	// }
+	// fmt.Println(angka)
 	//make pseudocode
 	//program Mutlak_Absolut
 	//kamus
@@ -116,17 +101,17 @@ func main() {
 	//	output(angka)
 	//endprogram
 
-	//latihan5 Temperatur
-	var suhu1, suhu2, suhu3, suhu4, suhu5 float64
-	fmt.Scan(&suhu1, &suhu2, &suhu3, &suhu4, &suhu5)
+	//Soal5 Temperatur
+	// var suhu1, suhu2, suhu3, suhu4, suhu5 float64
+	// fmt.Scan(&suhu1, &suhu2, &suhu3, &suhu4, &suhu5)
 
-	if suhu2 > suhu1 && suhu3 > suhu2 && suhu4 > suhu3 && suhu5 > suhu4 {
-		fmt.Println("Stabil naik")
-	} else if suhu2 < suhu1 && suhu3 < suhu2 && suhu4 < suhu3 && suhu5 < suhu4 {
-		fmt.Println("Stabil turun")
-	} else {
-		fmt.Println("Tidak stabil")
-	}
+	// if suhu2 > suhu1 && suhu3 > suhu2 && suhu4 > suhu3 && suhu5 > suhu4 {
+	// 	fmt.Println("Stabil naik")
+	// } else if suhu2 < suhu1 && suhu3 < suhu2 && suhu4 < suhu3 && suhu5 < suhu4 {
+	// 	fmt.Println("Stabil turun")
+	// } else {
+	// 	fmt.Println("Tidak stabil")
+	// }
 	//make pseudocode
 	//program Temperatur
 	//kamus
@@ -142,7 +127,7 @@ func main() {
 	//	endif
 	//endprogram
 
-	//latihan6 Profit
+	//Soal6 Profit
 	// var hasilBulanIni, hasilBulanLalu, profit float64
 	// fmt.Scan(&hasilBulanIni, &hasilBulanLalu)
 
@@ -172,30 +157,30 @@ func main() {
 	//	endif
 	//endprogram
 
-	//latihan7 LigaSepakBola
-	var gol1, gol2, gol3, gol4, goalTerbanyak, goalTerdikit int
-	fmt.Scan(&gol1, &gol2, &gol3, &gol4)
+	//Soal7 LigaSepakBola
+	// var gol1, gol2, gol3, gol4, goalTerbanyak, goalTerdikit int
+	// fmt.Scan(&gol1, &gol2, &gol3, &gol4)
 
-	goalTerbanyak = gol1
-	goalTerdikit = gol1
+	// goalTerbanyak = gol1
+	// goalTerdikit = gol1
 
-	if goalTerbanyak < gol2 {
-		goalTerbanyak = gol2
-	} else if gol2 < goalTerdikit {
-		goalTerdikit = gol2
-	}
+	// if goalTerbanyak < gol2 {
+	// 	goalTerbanyak = gol2
+	// } else if gol2 < goalTerdikit {
+	// 	goalTerdikit = gol2
+	// }
 
-	if goalTerbanyak < gol3 {
-		goalTerbanyak = gol3
-	} else if gol3 < goalTerdikit {
-		goalTerdikit = gol3
-	}
+	// if goalTerbanyak < gol3 {
+	// 	goalTerbanyak = gol3
+	// } else if gol3 < goalTerdikit {
+	// 	goalTerdikit = gol3
+	// }
 
-	if goalTerbanyak < gol4 {
-		goalTerbanyak = gol4
-	} else if gol4 < goalTerdikit {
-		goalTerdikit = gol4
-	}
+	// if goalTerbanyak < gol4 {
+	// 	goalTerbanyak = gol4
+	// } else if gol4 < goalTerdikit {
+	// 	goalTerdikit = gol4
+	// }
 
 	// fmt.Println(goalTerbanyak, goalTerdikit)
 	//make pseudocode
@@ -224,12 +209,53 @@ func main() {
 	//	output(goalTerbanyak, goalTerdikit)
 	//endprogram
 
-	//latihan8 Parkir
-	// nanti dulu susah
+	//Soal8 Parkir
+	// var h1, m1, h2, m2, h, m int;
 
-	//latihan9 Akhir Tahun
+	// fmt.Scan(&h1, &m1, &h2, &m2)
+	// fmt.Println("");
+
+	// if h1 == 6 || h2 == 6 || (h2 == 5 && m2 > 0) || (h1 == 5 && m1 > 0) {
+	// 	fmt.Println("Parkiran sedang tutup")
+	// } else {
+	// 	if h1 <= h2 && m1 <= m2 {
+	// 		h = h2 - h1;
+	// 		m = m2 - m1;
+	// 	} else if m1 <= m2{
+	// 		h = h2 - h1 + 12;
+	// 		m = m2 - m1;
+	// 	} else {
+	// 		h = h2 - h1 + 12;
+	// 		m = m2 - m1 + 60;
+	// 	}
+	// 	fmt.Println(h,"jam", m, "menit")
+	// }
+	//make pseudocode
+	//program Parkir
+	//kamus
+	//h1, m1, h2, m2, h, m : integer
+	//algoritma
+	//	input(h1, m1, h2, m2)
+	//	if h1 == 6 || h2 == 6 || (h2 == 5 && m2 > 0) || (h1 == 5 && m1 > 0) then
+	//		output("Parkiran sedang tutup")
+	//	else
+	//		if h1 <= h2 && m1 <= m2 then
+	//			h = h2 - h1;
+	//			m = m2 - m1;
+	//		else if m1 <= m2 then
+	//			h = h2 - h1 + 12;
+	//			m = m2 - m1;
+	//		else
+	//			h = h2 - h1 + 12;
+	//			m = m2 - m1 + 60;
+	//		endif
+	//		output(h,"jam", m, "menit")
+	//	endif
+	//endprogram
+
+	//Soal9 Akhir Tahun
 	// var cashback, diskon, membership bool
-	// var totalBelanja float64
+	// var totalBelanja int
 
 	// fmt.Scan(&totalBelanja, &membership)
 	// if totalBelanja >= 100.0 {
@@ -237,23 +263,26 @@ func main() {
 	// 		diskon = true
 	// 		if totalBelanja >= 200.0 {
 	// 			cashback = true
-	// 			totalBelanja = totalBelanja - (totalBelanja * 0.1) // 10%
+	// 			totalBelanja = totalBelanja - (totalBelanja * 10/100)
 	// 			totalBelanja = totalBelanja - 75000
 	// 		} else {
 	// 			cashback = false
-	// 			totalBelanja = totalBelanja - (totalBelanja * 0.1)
+	// 			totalBelanja = totalBelanja - (totalBelanja * 10/100)
 	// 		}
 	// 	} else {
 	// 		diskon = true
-	// 		totalBelanja = totalBelanja - (totalBelanja * 0.1)
+	// 		totalBelanja = totalBelanja - (totalBelanja * 10/100)
 	// 	}
 	// }
-	// fmt.Println("Kartu?", membership, "Diskon?", diskon, "Cashback?", cashback, "Total Belanja", totalBelanja)
+	// fmt.Println("Kartu?", membership)
+	// fmt.Println("Diskon?", diskon)
+	// fmt.Println("Cashback?", cashback)
+	// fmt.Print("Total Belanja ", totalBelanja)
 	//make pseudocode
 	//program AkhirTahun
 	//kamus
 	//cashback, diskon, membership : boolean
-	//totalBelanja : real
+	//totalBelanja : integer
 	//algoritma
 	//	input(totalBelanja, membership)
 	//	if totalBelanja >= 100.0 then
@@ -261,18 +290,21 @@ func main() {
 	//			diskon = true
 	//			if totalBelanja >= 200.0 then
 	//				cashback = true
-	//				totalBelanja = totalBelanja - (totalBelanja * 0.1) // 10%
+	//				totalBelanja = totalBelanja - (totalBelanja * 10/100)
 	//				totalBelanja = totalBelanja - 75000
 	//			else
 	//				cashback = false
-	//				totalBelanja = totalBelanja - (totalBelanja * 0.1)
+	//				totalBelanja = totalBelanja - (totalBelanja * 10/100)
 	//			endif
 	//		else
 	//			diskon = true
-	//			totalBelanja = totalBelanja - (totalBelanja * 0.1)
+	//			totalBelanja = totalBelanja - (totalBelanja * 10/100)
 	//		endif
 	//	endif
-	//	output("Kartu?", membership, "Diskon?", diskon, "Cashback?", cashback, "Total Belanja", totalBelanja)
+	//	output("Kartu?", membership)
+	//	output("Diskon?", diskon)
+	//	output("Cashback?", cashback)
+	//	output("Total Belanja ", totalBelanja)
 	//endprogram
 
 	//latihan10 Avatar
@@ -301,7 +333,7 @@ func main() {
 	// 	} else if bilP > 25 {
 	// 		appkecilDiv = 5
 	// 		takberangkat = bilP - 25
-	// 		fmt.Println( "Dewasa", appdewasaDiv , "kecil", appkecilDiv, "tak berangkat", takberangkat)
+	// 		fmt.Println( "Dewasa", appdewasaDiv , "kecil", appkecilDiv, "dan", takberangkat, "tak berangkat", )
 	// 	}
 	// }
 	//make pseudocode
