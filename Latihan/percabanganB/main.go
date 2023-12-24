@@ -97,32 +97,32 @@ func main() {
 	//endprogram
 
 	//latihan 4
-	var main1, main2, main3, main4, main5 string
-	var kalah int
-	fmt.Scan(&main1, &main2, &main3, &main4, &main5)
+	// var main1, main2, main3, main4, main5 string
+	// var kalah int
+	// fmt.Scan(&main1, &main2, &main3, &main4, &main5)
 
-	kalah = 0
-	if main1 == "kalah" || main1 == "Kalah" {
-		kalah++
-	}
-	if main2 == "kalah" || main1 == "Kalah" {
-		kalah++
-	}
-	if main3 == "kalah" || main1 == "Kalah" {
-		kalah++
-	}
-	if main4 == "kalah" || main1 == "Kalah" {
-		kalah++
-	}
-	if main5 == "kalah" || main1 == "Kalah" {
-		kalah++
-	}
+	// kalah = 0
+	// if main1 == "kalah" || main1 == "Kalah" {
+	// 	kalah++
+	// }
+	// if main2 == "kalah" || main1 == "Kalah" {
+	// 	kalah++
+	// }
+	// if main3 == "kalah" || main1 == "Kalah" {
+	// 	kalah++
+	// }
+	// if main4 == "kalah" || main1 == "Kalah" {
+	// 	kalah++
+	// }
+	// if main5 == "kalah" || main1 == "Kalah" {
+	// 	kalah++
+	// }
 
-	if kalah >= 5 {
-		fmt.Println("dipecat")
-	} else {
-		fmt.Println("tidak dipecat")
-	}
+	// if kalah >= 5 {
+	// 	fmt.Println("dipecat")
+	// } else {
+	// 	fmt.Println("tidak dipecat")
+	// }
 	//make pseudocode
 	//program Manager_EPL
 	//kamus

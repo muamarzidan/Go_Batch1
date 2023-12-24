@@ -33,14 +33,14 @@ func main() {
 	// cekFaktor = y % x == 0
 	// fmt.Println(cekFaktor)
 	//make pseudocode
-	//program FaktorBilangan
-	//kamus
-	//x, y : integer
-	//algoritma
-	//input (x, y)
-	//cekFaktor <- y % x == 0
-	//output(cekFaktor)
-	//endprogram
+	// program FaktorBilangan
+	// kamus
+	// x, y : integer
+	// algoritma
+	// input (x, y)
+	// cekFaktor <- y % x == 0
+	// output(cekFaktor)
+	// endprogram
 
 	//Latihan2 Penduduk
 	// var totalPenduduk, penduduk, kelahiran, imigrasi, kematian, emigrasi int
@@ -49,14 +49,14 @@ func main() {
 	// totalPenduduk = penduduk + kelahiran + imigrasi - kematian - emigrasi
 	// fmt.Println(totalPenduduk)
 	//make pseudocode
-	//program Penduduk
-	//kamus
-	//totalPenduduk, penduduk, kelahiran, imigrasi, kematian, emigrasi : integer
-	//algoritma
-	//input(penduduk, kelahiran, imigrasi, kematian, emigrasi)
-	//totalPenduduk <- penduduk + kelahiran + imigrasi - kematian - emigrasi
-	//output(totalPenduduk)
-	//endprogram
+	// program Penduduk
+	// kamus
+	// totalPenduduk, penduduk, kelahiran, imigrasi, kematian, emigrasi : integer
+	// algoritma
+	// input(penduduk, kelahiran, imigrasi, kematian, emigrasi)
+	// totalPenduduk <- penduduk + kelahiran + imigrasi - kematian - emigrasi
+	// output(totalPenduduk)
+	// endprogram
 
 	//latihan3	Cek Bilangan Akar Pangkat 3
 	// var x, y int
@@ -67,59 +67,46 @@ func main() {
 	// cek = y == x * x * x
 	// fmt.Println(cek)
 	//make pseudocode
-	//program CekBilanganAkarPangkat3
-	//kamus
-	//x, y : integer
-	//cek : boolean
-	//algoritma
-	//input(x, y)
-	//cek <- y == x * x * x
-	//output(cek)
-	//endprogram
+	// program CekBilanganAkarPangkat3
+	// kamus
+	// x, y : integer
+	// cek : boolean
+	// algoritma
+	// input(x, y)
+	// cek <- y == x * x * x
+	// output(cek)
+	// endprogram
 
 	//latihan4 Gravitasi
-	// var masa, gravitasiMerkurius, gravitasiVenus, gravitasiBumi, gravitasiMars, gravitasiJupiter, gravitasiSaturnus, gravitasiUranus, gravitasiNeptunus  float64
-	// gravitasiMerkurius = 0.38
-	// gravitasiVenus = 0.91
-	// gravitasiBumi = 9.8
-	// gravitasiMars = 0.38
-	// gravitasiJupiter = 2.37
-	// gravitasiSaturnus = 0.92
-	// gravitasiUranus = 0.89
-	// gravitasiNeptunus = 1.13
+	// var merkurius, venus, mars, bumi, yupiter, saturnus, uranus, neptunus, x float64
+	// bumi = 9.8
 
-	// fmt.Scanln(&masa)
-	// fmt.Println(masa * gravitasiMerkurius)
-	// fmt.Println(masa * gravitasiVenus)
-	// fmt.Println(masa * gravitasiBumi)
-	// fmt.Println(masa * gravitasiMars)
-	// fmt.Println(masa * gravitasiJupiter)
-	// fmt.Println(masa * gravitasiSaturnus)
-	// fmt.Println(masa * gravitasiUranus)
-	// fmt.Println(masa * gravitasiNeptunus)
+	// merkurius = 0.38 * bumi
+	// venus = 0.91 * bumi
+	// mars = 0.38 * bumi
+	// yupiter = 2.37 * bumi
+	// saturnus = 0.92 * bumi
+	// uranus = 0.89 * bumi
+	// neptunus = 1.13 * bumi
+
+	// fmt.Scan(&x)
+
+	// fmt.Printf("%.0f %.0f %.0f %.0f %.0f %.0f %.0f %.0f\n", x * merkurius, x * venus, x * bumi, x * mars, x * yupiter, x * saturnus, x * uranus, x * neptunus)
 	//make pseudocode
-	//program Gravitasi
-	//kamus
-	//masa, gravitasiMerkurius, gravitasiVenus, gravitasiBumi, gravitasiMars, gravitasiJupiter, gravitasiSaturnus, gravitasiUranus, gravitasiNeptunus : float
-	//algoritma
-	//gravitasiMerkurius <- 0.38
-	//gravitasiVenus <- 0.91
-	//gravitasiBumi <- 9.8
-	//gravitasiMars <- 0.38
-	//gravitasiJupiter <- 2.37
-	//gravitasiSaturnus <- 0.92
-	//gravitasiUranus <- 0.89
-	//gravitasiNeptunus <- 1.13
-	//input(masa)
-	//output(masa * gravitasiMerkurius)
-	//output(masa * gravitasiVenus)
-	//output(masa * gravitasiBumi)
-	//output(masa * gravitasiMars)
-	//output(masa * gravitasiJupiter)
-	//output(masa * gravitasiSaturnus)
-	//output(masa * gravitasiUranus)
-	//output(masa * gravitasiNeptunus)
-	//endprogram
+	// program Gravitasi
+	// kamus
+	// merkurius, venus, mars, bumi, yupiter, saturnus, uranus, neptunus, x : real
+	// algoritma
+	//  input(x)
+	//  merkurius <- 0.38 * bumi
+	//  venus <- 0.91 * bumi
+	//  mars <- 0.38 * bumi
+	//  yupiter <- 2.37 * bumi
+	//  saturnus <- 0.92 * bumi
+	//  uranus <- 0.89 * bumi
+	//  neptunus <- 1.13 * bumi
+	//  utput(x * merkurius, x * venus, x * bumi, x * mars, x * yupiter, x * saturnus, x * uranus, x * neptunus)
+	// endprogram
 
 	//latihan5
 	// var suku1, suku2, suku3, suku4, suku5 int
@@ -129,15 +116,15 @@ func main() {
 	// suku5 = suku4 + suku3
 	// fmt.Println(suku3, suku4, suku5)
 	//make pseudocode
-	//program DeretAritmatika
-	//kamus
-	//suku1, suku2, suku3, suku4, suku5 : integer
-	//algoritma
-	//input(suku1, suku2)
-	//suku3 <- suku2 + suku1
-	//suku4 <- suku3 + suku2
-	//suku5 <- suku4 + suku3
-	//output(suku3, suku4, suku5)
-	//endprogram
+	// program DeretAritmatika
+	// kamus
+	//     suku1, suku2, suku3, suku4, suku5 : integer
+	// algoritma
+	// 	input(suku1, suku2)
+	// 	suku3 <- suku2 + suku1
+	// 	suku4 <- suku3 + suku2
+	// 	suku5 <- suku4 + suku3
+	// 	output(suku3, suku4, suku5)
+	// endprogram
 }
 

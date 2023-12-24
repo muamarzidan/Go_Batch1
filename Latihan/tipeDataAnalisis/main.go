@@ -14,15 +14,15 @@ func main() {
 
     // fmt.Print(luasBola)
     // //make pseudo code
-    //program PermukaanBola
-    //kamus
-    //jariJari, phi, luasBola : float
-    //algoritma
-    //input(jariJari)
-    //phi <- 22/7
-    //luasBola <- 4 * phi * (jariJari * jariJari)
-    //output(luasBola)
-    //endprogram
+    // program PermukaanBola
+    // kamus
+    // jariJari, phi, luasBola : float
+    // algoritma
+    // input(jariJari)
+    // phi <- 22/7
+    // luasBola <- 4 * phi * (jariJari * jariJari)
+    // output(luasBola)
+    // endprogram
 
     //soal2 DigitGanda
     // var angkaDuaDigit, d1, d2 int
@@ -52,16 +52,16 @@ func main() {
     // kapital = 'A' <= cekHuruf && cekHuruf <= 'Z'
     // fmt.Println(kapital)
     // //make pseudo code
-    //program Kapital
-    //kamus
-    //cekHuruf : char
-    //kapital : boolean
-    //algoritma
-    //input(cekHuruf)
-    //kapital <- true
-    //kapital <- 'A' <= cekHuruf && cekHuruf <= 'Z'
-    //output(kapital)
-    //endprogram
+    // program Kapital
+    // kamus
+    // cekHuruf : char
+    // kapital : boolean
+    // algoritma
+    // input(cekHuruf)
+    // kapital <- true
+    // kapital <- 'A' <= cekHuruf && cekHuruf <= 'Z'
+    // output(kapital)
+    // endprogram
 
     //soal4 Energi
     // var E0, c, E1, cc int
@@ -70,12 +70,12 @@ func main() {
     // cc = (E0 - E1) / c
     // fmt.Println(cc)
     //make pseudo code
-    //program Energi
-    //kamus
-    //E0, c, E1, cc : integer
-    //algoritma
-    //input(E0, c, E1)
-    //cc <- (E0 - E1) / c
-    //output(cc)
-    //endprogram
+    // program Energi
+    // kamus
+    // E0, c, E1, cc : integer
+    // algoritma
+    // input(E0, c, E1)
+    // cc <- (E0 - E1) / c
+    // output(cc)
+    // endprogram
 }

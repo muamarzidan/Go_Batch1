@@ -8,7 +8,7 @@ func main() {
     // var i, login int
 
 	// i = 1
-	// login = -1
+	// login = 0
 
     // for i > 0 && (inputUsername != "admin" || inputPassword != "admin") {
     //     fmt.Scan(&inputUsername)
@@ -19,11 +19,11 @@ func main() {
     // fmt.Println(login)
     // fmt.Print("Login berhasil")
 	//make pseudocode
-	//program Login
-	//kamus
+	// program Login
+	// kamus
 	// inputUsername, inputPassword : string
 	// i, login : integer
-	//algoritma
+	// algoritma
 	// i <- 1
 	// login <- -1
 	// while i > 0 and (inputUsername != "admin" or inputPassword != "admin") do
@@ -33,11 +33,12 @@ func main() {
 	// end while
 	// output(login)
 	// output("Login berhasil")
-	//end program
+	// end program
 
 	//Soal2 Dompet
 	// var saldo, tf int;
 	// saldo = 0;
+	// fmt.Scan(&tf);
 
 	// for tf != 0 {
 	// 	saldo = saldo + tf
@@ -45,17 +46,18 @@ func main() {
 	// };
 	// fmt.Println(saldo);
 	//make pseudocode
-	//program Dompet
-	//kamus
-	// saldo, tf : integer
-	//algoritma
-	// saldo <- 0
-	// while tf != 0 do
-	// 	saldo <- saldo + tf
+	// program Dompet
+	// kamus
+	//     saldo, tf : integer
+	// algoritma
+	// 	saldo <- 0
 	// 	input(tf)
-	// end while
-	// output(saldo)
-	//end program
+	// 	while tf != 0 do
+	// 		saldo <- saldo + tf
+	// 		input(tf)
+	// 	endwhile
+	// 	output(saldo)
+	// end program
 
 	//Soal3 Digit
 	// var x, x2, total int
@@ -70,19 +72,19 @@ func main() {
 	// fmt.Println()
 	// fmt.Println(total)
 	//make pseudocode
-	//program Digit
-	//kamus
-	// X, X2, total : integer
-	//algoritma
-	// input(X)
-	// while X != 0 do
-	// 	X2 <- X mod 10
-	// 	X <- X div 10
-	// 	output(X2)
-	// 	total <- total + X2
-	// end while
-	// output(total)
-	//end program
+	// program Digit
+	// kamus
+	// 	X, X2, total : integer
+	// algoritma
+	// 	input(X)
+	// 	while X != 0 do
+	// 		X2 <- X mod 10
+	// 		X <- X div 10
+	// 		output(X2)
+	// 		total <- total + X2
+	// 	endwhile
+	// 	output(total)
+	// end program
 
 	//Soal4 Cnagkir Kopi
 	// var n, m, x, y, cangkir int
@@ -96,19 +98,19 @@ func main() {
     // }
     // fmt.Println(cangkir)
 	//make pseudocode
-	//program CangkirKopi
-	//kamus
-	// n, m, x, y, cangkir : integer
-	//algoritma
-	// input(n, m, x, y)
-	// cangkir <- 0
-	// while n >= x and m >= y do
-	// 	n <- n - x
-	// 	m <- m - y
-	// 	cangkir <- cangkir + 1
-	// end while
-	// output(cangkir)
-	//end program
+	// program CangkirKopi
+	// kamus
+	// 	n, m, x, y, cangkir : integer
+	// algoritma
+	// 	input(n, m, x, y)
+	// 	cangkir <- 0
+	// 	while n >= x and m >= y do
+	// 		n <- n - x
+	// 		m <- m - y
+	// 		cangkir <- cangkir + 1
+	// 	endwhile
+	// 	output(cangkir)
+	// end program
 
 	//Soal5 Konsekutif
 	// var X, angka, digitSebelum, selisih int
@@ -159,32 +161,31 @@ func main() {
 	//endprogram
 
 	//Latihan6 Tanki Air
-	var t, ember, volume int;
-	var cekTangki bool
-	ember = 0;
-	cekTangki = true
-	fmt.Scan(&t);
-	
-	for t != ember {
-		fmt.Scan(&volume)
-		ember = ember + volume
-		cekTangki = ember == t
-		fmt.Println(cekTangki)
-	}
+	// var tanki, volume, tv int;
+	// var cekPenuh bool;
+
+	// fmt.Scan(&tanki);
+
+	// tv = 0;
+	// for tv < tanki {
+	// 	fmt.Scan(&volume);
+	// 	tv += volume;
+	// 	cekPenuh = tv >= tanki;
+	// 	fmt.Println(cekPenuh)
+	// }
 	//make pseudocode
-	//program TankiAir
-	//kamus
-	// t, ember, volume : integer
-	// cekTangki : boolean
-	//algoritma
-	// ember <- 0
-	// cekTangki <- true
-	// input(t)
-	// while t != ember do
-	// 	input(volume)
-	// 	ember <- ember + volume
-	// 	cekTangki <- ember == t
-	// 	output(cekTangki)
-	// endwhile
-	//endprogram
+	// program TankiAir
+	// kamus
+	// 	tanki, volume, tv : integer
+	// 	cekPenuh : boolean
+	// algoritma
+	// 	input(tanki)
+	// 	tv <- 0
+	// 	while tv < tanki do
+	// 		input(volume)
+	// 		tv <- tv + volume
+	// 		cekPenuh <- tv >= tanki
+	// 		output(cekPenuh)
+	// 	endwhile
+	// endprogram
 }

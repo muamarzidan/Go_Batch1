@@ -308,35 +308,35 @@ func main() {
 	//endprogram
 
 	//latihan10 Avatar
-	// var bilP, appdewasaDiv, appdewasaMod, appkecilDiv, appkecilMod, takberangkat int
-	// fmt.Scan(&bilP)
+	var bilP, appdewasaDiv, appdewasaMod, appkecilDiv, appkecilMod, takberangkat int
+	fmt.Scan(&bilP)
 
-	// if bilP <= 15 {
-	// 	appdewasaDiv = bilP / 5
-	// 	appdewasaMod = bilP % 5
+	if bilP <= 15 {
+		appdewasaDiv = bilP / 5
+		appdewasaMod = bilP % 5
 
-	// 	if appdewasaMod != 0 {
-	// 		appdewasaDiv = appdewasaDiv + 1
-	// 	}
-	// 	fmt.Println("Dewasa", appdewasaDiv)
-	// } else if bilP > 15 {
-	// 	appdewasaDiv = 3
+		if appdewasaMod != 0 {
+			appdewasaDiv = appdewasaDiv + 1
+		}
+		fmt.Println("Dewasa", appdewasaDiv)
+	} else if bilP > 15 {
+		appdewasaDiv = 3
 
-	// 	if bilP <= 25 {
-	// 		appkecilDiv = (bilP - 15) / 2
-	// 		appkecilMod = (bilP - 15) % 2
+		if bilP <= 25 {
+			appkecilDiv = (bilP - 15) / 2
+			appkecilMod = (bilP - 15) % 2
 
-	// 		if appkecilMod != 0 {
-	// 			appkecilDiv = appkecilDiv + 1
-	// 		}
-	// 		fmt.Println("Dewasa",appdewasaDiv, "Kecil", appkecilDiv)
-	// 	} else if bilP > 25 {
-	// 		appkecilDiv = 5
-	// 		takberangkat = bilP - 25
-	// 		fmt.Println( "Dewasa", appdewasaDiv , "kecil", appkecilDiv, "dan", takberangkat, "tak berangkat", )
-	// 	}
-	// }
-	//make pseudocode
+			if appkecilMod != 0 {
+				appkecilDiv = appkecilDiv + 1
+			}
+			fmt.Println("Dewasa",appdewasaDiv, "Kecil", appkecilDiv)
+		} else if bilP > 25 {
+			appkecilDiv = 5
+			takberangkat = bilP - 25
+			fmt.Println( "Dewasa", appdewasaDiv , "kecil", appkecilDiv, "dan", takberangkat, "tak berangkat", )
+		}
+	}
+	// make pseudocode
 	//program Avatar
 	//kamus
 	//bilP, appdewasaDiv, appdewasaMod, appkecilDiv, appkecilMod, takberangkat : integer

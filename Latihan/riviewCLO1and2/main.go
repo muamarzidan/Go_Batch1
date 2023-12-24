@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	//Soal1 Waktu
+	// Soal1 Waktu
 	// var t, jt, mt, dt int
 	// fmt.Scan(&t)
 
@@ -12,19 +12,19 @@ func main() {
 	// dt = (t % 3600) % 60
 
 	// fmt.Println(jt, "jam", mt, "menit", dt, "detik")
-	//make pseudocode
-	//program Waktu
-	//kamus
-	//t, jt, mt, dt : integer
-	//algoritma
-	//input(t)
-	//jt <- t / 3600
-	//mt <- (t % 3600) / 60
-	//dt <- (t % 3600) % 60
-	//output(jt, "jam", mt, "menit", dt, "detik")
-	//endprogram
+	// make pseudocode
+	// program Waktu
+	// kamus
+	// t, jt, mt, dt : integer
+	// algoritma
+	// input(t)
+	// jt <- t / 3600
+	// mt <- (t % 3600) / 60
+	// dt <- (t % 3600) % 60
+	// output(jt, "jam", mt, "menit", dt, "detik")
+	// endprogram
 
-	//Soal2 Voucher
+	// Soal2 Voucher
 	// var x, d1, d3, d2d3, d4 int
 	// var diskon, cashback bool
 	// diskon = true
@@ -42,23 +42,23 @@ func main() {
 	// cashback = (d4 != 0) && ((d1 + d3) % d4 == 0)
 
 	// fmt.Println("Diskon?", diskon, "Cashback?", cashback)
-	//make pseudocode
-	//program Voucher
-	//kamus
-	//x, d1, d3, d2d3, d4 : integer
-	//diskon, cashback : boolean
-	//algoritma
-	//input(x)
-	//d1 <- x / 1000
-	//d3 <- (x % 100) / 10
-	//d4 <- x % 10
-	//d2d3 <- (x % 100) / 10
-	//diskon <- d2d3%2 == 0
-	//cashback <- (d4 != 0) && ((d1 + d3) % d4 == 0)
-	//output("Diskon?", diskon, "Cashback?", cashback)
-	//endprogram	
+	// make pseudocode
+	// program Voucher
+	// kamus
+	// x, d1, d3, d2d3, d4 : integer
+	// diskon, cashback : boolean
+	// algoritma
+	// input(x)
+	// d1 <- x / 1000
+	// d3 <- (x % 100) / 10
+	// d4 <- x % 10
+	// d2d3 <- (x % 100) / 10
+	// diskon <- d2d3%2 == 0
+	// cashback <- (d4 != 0) && ((d1 + d3) % d4 == 0)
+	// output("Diskon?", diskon, "Cashback?", cashback)
+	// endprogram	
 
-	//Soal3 Jumlah Bilangan
+	// Soal3 Jumlah Bilangan
 	// var x, x2, total int
     // fmt.Scan(&x)
 
@@ -68,21 +68,21 @@ func main() {
     //     total = total + x2
     // }
 	// fmt.Println(total)
-	//make pseudocode
-	//program Jumlah_Bilangan
-	//kamus
-	//x, x2, total : integer
-	//algoritma
-	//input(x)
-	//while x != 0 do
-	//	x2 <- x % 10
-	//	x <- x / 10
-	//	total <- total + x2
-	//end while
-	//output(total)
-	//endprogram
+	// make pseudocode
+	// program Jumlah_Bilangan
+	// kamus
+	// x, x2, total : integer
+	// algoritma
+	// input(x)
+	// while x != 0 do
+	// 	x2 <- x % 10
+	// 	x <- x / 10
+	// 	total <- total + x2
+	// end while
+	// output(total)
+	// endprogram
 
-	//Soal4 Konsekutif
+	// Soal4 Konsekutif
 	// var X, angka, digitSebelum, selisih int
 	// var cekKonsekutif bool
 	// fmt.Scan(&X)
@@ -106,12 +106,12 @@ func main() {
 	// }
 
 	// fmt.Println(cekKonsekutif)
-	//make pseudocode
-	//program Konsekutif
-	//kamus
+	// make pseudocode
+	// program Konsekutif
+	// kamus
 	// X, angka, digitSebelum, selisih : integer
 	// cekKonsekutif : boolean
-	//algoritma
+	// algoritma
 	// input(X)
 	// digitSebelum <- -1
 	// cekKonsekutif <- true
@@ -128,9 +128,9 @@ func main() {
 	// 	X <- X div 10
 	// endwhile
 	// output(cekKonsekutif)
-	//endprogram
+	// endprogram
 
-	//Soal5 Fibonacci
+	// Soal5 Fibonacci
 	var n, fibo0, fibo1 int
     fmt.Scan(&n)
 
@@ -144,20 +144,20 @@ func main() {
         fibo0, fibo1 = fibo1, fibo0+fibo1
     }
     fmt.Println()
-	//make pseudocode
-	//program Fibonacci
-	//kamus
-	//n, fibo0, fibo1 : integer
-	//algoritma
-	//input(n)
-	//fibo0 <- 0
-	//fibo1 <- 1
-	//output(fibo0)
-	//for i <- 1 to n do
-	//	output(fibo1)
-	//	fibo0 <- fibo1
-	//	fibo1 <- fibo0 + fibo1
-	//endfor
-	//output()
-	//endprogram
+	// make pseudocode
+	// program Fibonacci
+	// kamus
+	// n, fibo0, fibo1 : integer
+	// algoritma
+	// input(n)
+	// fibo0 <- 0
+	// fibo1 <- 1
+	// output(fibo0)
+	// for i <- 1 to n do
+	// 	output(fibo1)
+	// 	fibo0 <- fibo1
+	// 	fibo1 <- fibo0 + fibo1
+	// endfor
+	// output()
+	// endprogram
 }

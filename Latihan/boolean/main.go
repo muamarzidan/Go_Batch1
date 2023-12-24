@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	//soal1 Alphanumeric
+	// soal1 Alphanumeric
 	// var char byte
 	// var cekAlphanumeric bool
 
@@ -13,37 +13,37 @@ func main() {
 	// cekAlphanumeric = char >= 'a' && char <= 'z' || char >= 'A' && char <= 'Z' || char >= '0' && char <= '9'
 
 	// fmt.Println(cekAlphanumeric)
-	//make pseudocode
-	//program Alphanumeric
-	//kamus
+	// make pseudocode
+	// program Alphanumeric
+	// kamus
 	// char : byte
 	// cekAlphanumeric : bool
-	//algoritma
+	// algoritma
 	// cekAlphanumeric <- true
 	// input char
 	// cekAlphanumeric <- char >= 'a' && char <= 'z' || char >= 'A' && char <= 'Z' || char >= '0' && char <= '9'
 	// output cekAlphanumeric
-	//endprogram
+	// endprogram
 
-	//soal2 Kabisat
+	// soal2 Kabisat
 	// var tahun int
 	// var cekTahun bool
 	// fmt.Scan(&tahun)
 
 	// cekTahun = (tahun % 4 == 0 && tahun % 100 != 0) || (tahun % 400 == 0)
 	// fmt.Print(cekTahun)
-	//make pseudocode
-	//program tahun_kabisat
-	//kamus
+	// make pseudocode
+	// program tahun_kabisat
+	// kamus
 	// tahun : int
 	// cekTahun : bool
-	//algoritma
+	// algoritma
 	// input tahun
 	// cekTahun <- (tahun % 4 == 0 && tahun % 100 != 0) || (tahun % 400 == 0)
 	// output cekTahun
-	//endprogram
+	// endprogram
 
-	//soal3 Segitiga
+	// soal3 Segitiga
 	// var sudutA, sudutB, sudutC int
 	// var cekSegitiga bool
 
@@ -51,18 +51,18 @@ func main() {
 
 	// cekSegitiga = sudutA+sudutB > sudutC && sudutA+sudutC > sudutB && sudutB+sudutC > sudutA
 	// fmt.Println(cekSegitiga)
-	//make pseudocode
-	//program segitiga
-	//kamus
+	// make pseudocode
+	// program segitiga
+	// kamus
 	// sudutA, sudutB, sudutC : int
 	// cekSegitiga : bool
-	//algoritma
+	// algoritma
 	// input sudutA, sudutB, sudutC
 	// cekSegitiga <- sudutA+sudutB > sudutC && sudutA+sudutC > sudutB && sudutB+sudutC > sudutA
 	// output cekSegitiga
-	//endprogram
+	// endprogram
 
-	//soal4 Mini Market
+	// soal4 Mini Market
 	// var total int
     // var inginKartu, dapatKartu, dapatDiskon, dapatCashback, Diskon, Cashback bool
 
@@ -79,12 +79,12 @@ func main() {
     // fmt.Println("Kartu?", dapatKartu)
     // fmt.Println("Diskon?", dapatDiskon)
     // fmt.Println("Cashback?", dapatCashback)
-	//make pseudocode
-	//program mini_market
-	//kamus
+	// make pseudocode
+	// program mini_market
+	// kamus
 	// total : int
 	// inginKartu, dapatKartu, dapatDiskon, dapatCashback, Diskon, Cashback : bool
-	//algoritma
+	// algoritma
 	// input total, inginKartu
 	// Diskon <- total >= 100000
 	// Cashback <- total >= 200000 && inginKartu
@@ -92,11 +92,29 @@ func main() {
 	// dapatDiskon <- Diskon
 	// dapatCashback <- Cashback
 	// output dapatKartu, dapatDiskon, dapatCashback
-	//endprogram
+	// endprogram
 
-	//soal5 Mid Point
+	// soal5 Mid Point
+	// var x, y, z float64
+    // var hasil bool
 
-	//soal6 Dua Lingkaran
+    // fmt.Scan(&x, &y, &z)
+
+    // hasil = (x + y) / 2.0 == z || (x + z) / 2.0 == y || (y + z) / 2.0 == x
+
+    // fmt.Println(hasil)
+	// make pseudocode
+	// program mid_point
+	// kamus
+	// x, y, z : float
+	// hasil : bool
+	// algoritma
+	// input x, y, z
+	// hasil <- (x + y) / 2.0 == z || (x + z) / 2.0 == y || (y + z) / 2.0 == x
+	// output hasil
+	// endprogram
+	
+	// soal6 Dua Lingkaran
 	// var a, b, tipus int
     // var cekIrisan bool
 
@@ -105,18 +123,18 @@ func main() {
     // cekIrisan = a + b < tipus || a + tipus < b || tipus + b < a
 
     // fmt.Print(cekIrisan)
-	//make pseudocode
-	//program dua_lingkaran
-	//kamus
+	// make pseudocode
+	// program dua_lingkaran
+	// kamus
 	// a, b, tipus : int
 	// cekIrisan : bool
-	//algoritma
+	// algoritma
 	// input a, b, tipus
 	// cekIrisan <- a + b < tipus || a + tipus < b || tipus + b < a
 	// output cekIrisan
-	//endprogram
+	// endprogram
 
-	//soal Pramuka
+	// soal Pramuka
 	// var n, i int;
     // var a, b, c, d, e, hasil bool;
 
@@ -129,17 +147,17 @@ func main() {
     //     hasil = a == true && b == true && c == true && d == true && e == true
     // }
     // fmt.Println(hasil)
-	//make pseudocode
-	//program pramuka
-	//kamus
+	// make pseudocode
+	// program pramuka
+	// kamus
 	// n, i : int
 	// a, b, c, d, e, hasil : bool
-	//algoritma
+	// algoritma
 	// input n
 	// hasil <- true
 	// for i <- 0 to n-1
 	//     input a, b, c, d, e
 	//     hasil <- a == true && b == true && c == true && d == true && e == true
 	// output hasil
-	//endprogram
+	// endprogram
 }
