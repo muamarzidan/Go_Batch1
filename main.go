@@ -3,6 +3,46 @@ package main
 import "fmt"
 
 func main() {
+	var x int 
+	var a, b, c string
+
+	level1Satu := true
+	level1Dua := true
+	level1Tiga := true
+	
+    fmt.Println("|---------->SAMBUNG LIRIK LAGU<----------|")
+    fmt.Print("Pilih tingkat kesulitan(1,2,3) : ")
+    fmt.Scan(&x)
+
+
+    for i := 1; i <= x; i++ {
+        if i == 1 && x == 1{
+            for j := 1; j <= 3; j++ {
+                if j == 1{
+                    fmt.Println("satu ditambah satu")
+                    fmt.Scan(&a)
+					level1Satu = a == "dua"
+					fmt.Println(level1Satu)
+                } else if j == 2{
+					fmt.Println("dua ditambah dua")
+					fmt.Scan(&b)
+					level1Dua = b == "empat"
+					fmt.Println(level1Dua)
+				} else if j == 3{
+					fmt.Println("tiga ditambah tiga")
+					fmt.Scan(&c)
+					level1Tiga = c == "enam"
+					fmt.Println(level1Tiga)
+				}
+            }
+        }
+        if i == 2 && x == 2 {
+            fmt.Println("knt")
+        }
+        if i == 3 && x == 3 {
+            fmt.Println("benar")
+        }
+	}
 	// make a program to see if an integer input from the user has digits that are in decreasing order or not.
 	// the input consists of positive integers, the first number is N, while the second or next number is a number consisting of N digits.
 	// the output consists of a boolean stating that the given second number is in decreasing order or not.
@@ -20,13 +60,13 @@ func main() {
 	// must use for loop/while loop/repeat until
 	// must not use branching, additional libraries etc.
 
-		var n int;
-		fmt.Scan(&n);
+		// var n int;
+		// fmt.Scan(&n);
 
-		n = n / 10;
-		n = n % 10;
+		// n = n / 10;
+		// n = n % 10;
 
-		fmt.Printf("%d\n", n)
+		// fmt.Printf("%d\n", n)
 
 	
 
