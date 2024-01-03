@@ -13,17 +13,17 @@ func main() {
     }
 }
 
-program balikangka
-kamus
-    X, X2 : integer
-algoritma
-    input(X)
-    while X != 0 do 
-        X2 <- X mod 10
-        X <- X div 10
-        output(X2)
-    end while
-end program
+// program balikangka
+// kamus
+//     X, X2 : integer
+// algoritma
+//     input(X)
+//     while X != 0 do 
+//         X2 <- X mod 10
+//         X <- X div 10
+//         output(X2)
+//     end while
+// end program
 
 
 
