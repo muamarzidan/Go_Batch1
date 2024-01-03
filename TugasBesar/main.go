@@ -16,11 +16,9 @@ func main() {
 		fmt.Println("1. Membeli buku")
 		fmt.Println("2. Bermain Tebak-Tebakan")
 		fmt.Print("\n")
+		fmt.Scan(&opsiMenu)
 
-		for opsiMenu < 1 || opsiMenu > 2 {
-			fmt.Scan(&opsiMenu)
-			fmt.Println("\t")
-
+		for opsiMenu == 1 || opsiMenu == 2 {
 			if opsiMenu == 1 {
 				fmt.Print("\n")
 				fmt.Println("Berikut kategori buku yang kami jual: ")
@@ -1296,10 +1294,14 @@ func main() {
 					}
 				}	
 			} else {
-				fmt.Println("Pilihan tidak valid, ilakan pilih 1 atau 2")
+				fmt.Println("Pilihan tidak valid, silakan pilih 1 atau 2")
 				opsiMenu = 0
+				program = false
 			}
 		}
+		opsiMenu = 0
+		fmt.Print("Masukan pilihan 1 atau 2 (y / t)\n")
+		program = true
 	}
 }
 
