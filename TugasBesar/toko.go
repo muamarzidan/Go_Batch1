@@ -1083,7 +1083,8 @@ func main() {
 								Clue := 0
 								kesempatanJawab := 5
 
-								for Opsi < 1 || Opsi > 3 {
+								//for Opsi < 1 || Opsi > 2
+								for cekJawabanLevel1 == true {
 									fmt.Println("\nPilih Pertanyaan:")
 									fmt.Println("1. Tebak jenis buku apa yang Roki baca")
 									fmt.Println("2. Tebak negara terkecil di dunia")
@@ -1103,8 +1104,8 @@ func main() {
 												fmt.Println("*   Tukarkan jawaban anda untuk mendapatkan diskon saat pembelian buku   *")
 												fmt.Println("**************************************************************************")
 
-												cekJawabanLevel1 = false
 												kesempatanJawab = 0
+												cekJawabanLevel1 = false
 												program = false
 											} else {
 												kesempatanJawab = kesempatanJawab - 1
@@ -1112,9 +1113,10 @@ func main() {
 												if kesempatanJawab == 0 {
 													fmt.Println("\nSorry, kesempatan anda menjawab sudah habis")
 													fmt.Println("Game Over")
-													cekJawabanLevel1 = false
+
 													Clue = 4
 													kesempatanJawab = 0
+													cekJawabanLevel1 = false
 													program = false
 												}
 												if Clue < clueJawabanLevel1 {
@@ -1125,13 +1127,13 @@ func main() {
 														if Clue == 1 {
 															fmt.Print("\n")
 															fmt.Println("************************ Clue 1 *****************************")
-															fmt.Println("*   Jenis buku ini dibaca oleh orang berpengaruh di dunia   *")
+															fmt.Println("*       Jenis buku ini berisi tentang sebuah pandangan      *")
 															fmt.Println("*************************************************************")
 															fmt.Print("\n")
 														} else if Clue == 2 {
 															fmt.Print("\n")
 															fmt.Println("************************ Clue 2 *****************************")
-															fmt.Println("*              Jenis ini dibaca 3 kali ucapan               *")
+															fmt.Println("*            Jenis buku ini dibaca 3 kali ucapan            *")
 															fmt.Println("*************************************************************")
 															fmt.Print("\n")
 														} else if Clue == 3 {
@@ -1160,19 +1162,28 @@ func main() {
 												fmt.Println("*       Jawaban anda benar, Negara terkecil di dunia adalah Vatican      *")
 												fmt.Println("*   Tukarkan jawaban anda untuk mendapatkan diskon saat pembelian buku   *")
 												fmt.Println("**************************************************************************")
-												cekJawabanLevel1 = false
+
 												kesempatanJawab = 0
+												cekJawabanLevel1 = false
 												program = false
+												// cekJawabanLevel1 = false
+												// kesempatanJawab = 0
+												// program = false
 											} else {
 												kesempatanJawab = kesempatanJawab - 1
 												fmt.Println("Jawaban anda salah")
 												if kesempatanJawab == 0 {
 													fmt.Println("\nSorry, kesempatan anda menjawab sudah habis")
 													fmt.Println("Game Over")
-													cekJawabanLevel1 = false
+
 													Clue = 4
 													kesempatanJawab = 0
+													cekJawabanLevel1 = false
 													program = false
+													// cekJawabanLevel1 = false
+													// Clue = 4
+													// kesempatanJawab = 0
+													// program = false
 												}
 												if Clue < clueJawabanLevel1 {
 													fmt.Println("Apakah anda ingin menggunakan gunakan clue? (y / t)")
@@ -1207,7 +1218,6 @@ func main() {
 										}
 									} else {
 										fmt.Println("\nPilihan tidak valid. Silakan pilih 1 atau 2.")
-										Opsi = 0
 									}
 								}
 							}
@@ -1226,7 +1236,8 @@ func main() {
 								Clue := 0
 								kesempatanJawab := 4
 
-								for Opsi < 1 || Opsi > 2 {
+								//for Opsi < 1 || Opsi > 2
+								for cekJawabanLevel2 == true {
 									fmt.Println("\nPilih Pertanyaan:")
 									fmt.Println("1. Tebak nama buku best seller di Gramedia")
 									fmt.Println("2. Tebak negara")
@@ -1248,19 +1259,28 @@ func main() {
 												fmt.Println("*         Jawaban anda benar, Buku tersebut bernama Atomic Habits        *")
 												fmt.Println("*   Tukarkan jawaban anda untuk mendapatkan diskon saat pembelian buku   *")
 												fmt.Println("**************************************************************************")
-												cekJawabanLevel2 = false
+
 												kesempatanJawab = 0
+												cekJawabanLevel2 = false
 												program = false
+												// cekJawabanLevel2 = false
+												// kesempatanJawab = 0
+												// program = false
 											} else {
 												kesempatanJawab = kesempatanJawab - 1
 												fmt.Println("Jawaban anda salah")
 												if kesempatanJawab == 0 {
 													fmt.Println("\nSorry, kesempatan anda menjawab sudah habis")
 													fmt.Println("Game Over")
-													cekJawabanLevel2 = false
+
 													Clue = 4
 													kesempatanJawab = 0
+													cekJawabanLevel2 = false
 													program = false
+													// cekJawabanLevel2 = false
+													// Clue = 4
+													// kesempatanJawab = 0
+													// program = false
 												}
 												if Clue < clueJawabanLevel2 {
 													fmt.Println("Apakah anda ingin menggunakan gunakan clue? (y / t)")
@@ -1276,7 +1296,7 @@ func main() {
 														} else if Clue == 2 {
 															fmt.Print("\n")
 															fmt.Println("************************* Clue 2 *****************************")
-															fmt.Println("*     Buku ini dimulai dengan huruf A dan H dan 2 Kalimat    *")
+															fmt.Println("*   Buku ini dimulai dengan huruf A dan H dan ada 2 Kalimat  *")
 															fmt.Println("**************************************************************")
 															fmt.Print("\n")
 														}
@@ -1301,19 +1321,28 @@ func main() {
 												fmt.Println("*              Jawaban anda benar, Negara tersebut Islandia              *")
 												fmt.Println("*   Tukarkan jawaban anda untuk mendapatkan diskon saat pembelian buku   *")
 												fmt.Println("**************************************************************************")
-												cekJawabanLevel2 = false
+
 												kesempatanJawab = 0
+												cekJawabanLevel2 = false
 												program = false
+												// cekJawabanLevel2 = false
+												// kesempatanJawab = 0
+												// program = false
 											} else {
 												kesempatanJawab = kesempatanJawab - 1
 												fmt.Println("Jawaban anda salah")
 												if kesempatanJawab == 0 {
 													fmt.Println("\nSorry, kesempatan anda menjawab sudah habis")
 													fmt.Println("Game Over")
-													cekJawabanLevel2 = false
+
 													Clue = 4
 													kesempatanJawab = 0
+													cekJawabanLevel2 = false
 													program = false
+													// cekJawabanLevel2 = false
+													// Clue = 4
+													// kesempatanJawab = 0
+													// program = false
 												}
 												if Clue < clueJawabanLevel2 {
 													fmt.Println("Apakah anda ingin menggunakan gunakan clue? (y / t)")
@@ -1329,7 +1358,7 @@ func main() {
 														} else if Clue == 2 {
 															fmt.Print("\n")
 															fmt.Println("************************* Clue 2 *****************************")
-															fmt.Println("*    Negara ini dimulai dengan huruf I dan 7 Kalimat         *")
+															fmt.Println("*    Negara ini dimulai dengan huruf I dan 8 Huruf         *")
 															fmt.Println("**************************************************************")
 															fmt.Print("\n")
 														}
@@ -1342,7 +1371,6 @@ func main() {
 										}
 									} else {
 										fmt.Println("\nPilihan tidak valid. Silakan pilih 1 atau 2.")
-										Opsi = 0
 									}
 								}
 							}
@@ -1361,7 +1389,8 @@ func main() {
 								Clue := 0
 								kesempatanJawab := 3
 
-								for Opsi < 1 || Opsi > 2 {
+								// for Opsi < 1 || Opsi > 2
+								for cekJawabanLevel3 == true {
 									fmt.Println("\nPilih Pertanyaan:")
 									fmt.Println("1. Tebak berapa buku yang ada di gramedia")
 									fmt.Println("2. Tebak serangga")
@@ -1382,19 +1411,28 @@ func main() {
 												fmt.Println("*                Jawaban anda benar, jumlahnya infiniti                  *")
 												fmt.Println("*   Tukarkan jawaban anda untuk mendapatkan diskon saat pembelian buku   *")
 												fmt.Println("**************************************************************************")
-												cekJawabanLevel3 = false
+
 												kesempatanJawab = 0
+												cekJawabanLevel3 = false
 												program = false
+												// cekJawabanLevel3 = false
+												// kesempatanJawab = 0
+												// program = false
 											} else {
 												kesempatanJawab = kesempatanJawab - 1
 												fmt.Println("Jawaban anda salah")
 												if kesempatanJawab == 0 {
 													fmt.Println("\nSorry, kesempatan anda menjawab sudah habis")
 													fmt.Println("Game Over")
-													cekJawabanLevel3 = false
+
 													Clue = 4
 													kesempatanJawab = 0
+													cekJawabanLevel3 = false
 													program = false
+													// cekJawabanLevel3 = false
+													// Clue = 4
+													// kesempatanJawab = 0
+													// program = false
 												}
 												if Clue < clueJawabanLevel3 {
 													fmt.Println("Apakah anda ingin menggunakan gunakan clue? (y / t)")
@@ -1429,19 +1467,28 @@ func main() {
 												fmt.Println("*               Jawaban anda benar, serangga tersebut Ichneumon         *")
 												fmt.Println("*   Tukarkan jawaban anda untuk mendapatkan diskon saat pembelian buku   *")
 												fmt.Println("**************************************************************************")
-												cekJawabanLevel3 = false
+
 												kesempatanJawab = 0
+												cekJawabanLevel3 = false
 												program = false
+												// cekJawabanLevel3 = false
+												// kesempatanJawab = 0
+												// program = false
 											} else {
 												kesempatanJawab = kesempatanJawab - 1
 												fmt.Println("Jawaban anda salah")
 												if kesempatanJawab == 0 {
 													fmt.Println("\nSorry, kesempatan anda menjawab sudah habis")
 													fmt.Println("Game Over")
-													cekJawabanLevel3 = false
+
 													Clue = 4
 													kesempatanJawab = 0
+													cekJawabanLevel3 = false
 													program = false
+													// cekJawabanLevel3 = false
+													// Clue = 4
+													// kesempatanJawab = 0
+													// program = false
 												}
 												if Clue < clueJawabanLevel3 {
 													fmt.Println("Apakah anda ingin menggunakan gunakan clue? (y / t)")
@@ -1451,7 +1498,7 @@ func main() {
 														if Clue == 1 {
 															fmt.Print("\n")
 															fmt.Println("************************* Clue 1 *****************************")
-															fmt.Println("*    Serangga ini bersifat parasit dan berbentuk ular         *")
+															fmt.Println("*   Serangga ini bersifat parasit, bisa terbang, dan kecil   *")
 															fmt.Println("**************************************************************")
 															fmt.Print("\n")
 														}
@@ -1464,7 +1511,6 @@ func main() {
 										}
 									} else {
 										fmt.Println("\nPilihan tidak valid. Silakan pilih 1 atau 2.")
-										Opsi = 0
 									}
 								}
 							}
