@@ -40,7 +40,7 @@ func main() {
 		fmt.Println("Angka sama dengan 10")
 	}
 
-	// if with if in else 
+	// if with if in else
 	if input > 10 {
 		fmt.Println("Angka lebih dari 10")
 	} else {
