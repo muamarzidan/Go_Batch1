@@ -3,24 +3,51 @@ package main
 import "fmt"
 
 func main() {
-	// var konsonan string;
-	// fmt.Scan(&konsonan);
+	// noraml if with else
+	var input int
 
-	// if (konsonan == "a" || konsonan == "i" || konsonan == "u" || konsonan == "e" || konsonan == "o") || (konsonan == "A" || konsonan == "I" || konsonan == "U" || konsonan == "E" || konsonan == "O"){
-	// 	fmt.Println("bukan konsonan");
-	// } else {
-	// 	fmt.Println("konsonan");
-	// }
-	
+	fmt.Print("Masukkan angka: ")
+	fmt.Scanln(&input)
 
-	var angka int
-    fmt.Scan(&angka)
+	if input > 10 {
+		fmt.Println("Angka lebih dari 10")
+	} else {
+		fmt.Println("Angka kurang dari 10")
+	}
 
-    if angka%3 == 0 && angka%5 == 0 {
-        fmt.Println("Kelipatan 3 dan Kelipatan 5")
-    } else if angka%3 == 0 {
-        fmt.Println("Kelipatan 3")
-    } else if angka%5 == 0 {
-        fmt.Println("Kelipatan 5")
-    }
+	// if with else if
+	if input > 10 {
+		fmt.Println("Angka lebih dari 10")
+	} else if input < 10 {
+		fmt.Println("Angka kurang dari 10")
+	} else {
+		fmt.Println("Angka sama dengan 10")
+	}
+
+	// if with short statement
+	if input := 10; input > 10 {
+		fmt.Println("Angka lebih dari 10")
+	} else {
+		fmt.Println("Angka kurang dari 10")
+	}
+
+	// if with short statement and else if
+	if input := 10; input > 10 {
+		fmt.Println("Angka lebih dari 10")
+	} else if input < 10 {
+		fmt.Println("Angka kurang dari 10")
+	} else {
+		fmt.Println("Angka sama dengan 10")
+	}
+
+	// if with if in else 
+	if input > 10 {
+		fmt.Println("Angka lebih dari 10")
+	} else {
+		if input < 10 {
+			fmt.Println("Angka kurang dari 10")
+		} else {
+			fmt.Println("Angka sama dengan 10")
+		}
+	}
 }
