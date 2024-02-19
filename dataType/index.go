@@ -47,6 +47,3 @@ func main() {
 // 	KK = true
 // 	fmt.Println(KK)
 // }
-
-
-k

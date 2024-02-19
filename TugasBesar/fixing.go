@@ -4,7 +4,7 @@ import "fmt"
 
 func main() {
 	var program bool = true
-
+	
 	for program == true {
 		var kodeGame bool
 		var namaBuku, cekPunya, kode string

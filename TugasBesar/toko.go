@@ -41,11 +41,11 @@ func main() {
 
 					for opsiKategori > 0 && opsiKategori < 5 {
 						if opsiKategori == 1 {
-							fmt.Println("1. Dunia Shopie")
-							fmt.Println("2. Filsafat Plato")
-							fmt.Println("3. Sejarah Filsafat Barat")
-							fmt.Println("4. Filosofi Teras")
-							fmt.Println("5. Filsafat Aristoteles")
+							fmt.Println("1. Dunia Shopie, Rp. 100.000")
+							fmt.Println("2. Filsafat Plato, Rp. 150.000")
+							fmt.Println("3. Sejarah Filsafat Barat, Rp. 200.000")
+							fmt.Println("4. Filosofi Teras, Rp. 250.000")
+							fmt.Println("5. Filsafat Aristoteles, Rp. 300.000")
 							fmt.Println("Masukan nomor buku yang ingin anda beli: ")
 							fmt.Scan(&opsiBuku)
 							fmt.Print("\n")
@@ -80,7 +80,8 @@ func main() {
 								fmt.Println("\t")
 
 								if jumlahBuku == 0 {
-									fmt.Println("Jumlah buku 0 atau tidak valid, program perbenti")
+									fmt.Println("Terdeteksi jumlah buku 0 atau tidak valid, program berhenti")
+
 									opsiBuku = 0
 									opsiKategori = 0
 									program = false
@@ -118,11 +119,11 @@ func main() {
 													fmt.Println("========================= STRUK ============================")
 													fmt.Println("Anda telah membeli buku")
 													fmt.Println("Buku :  ", namaBuku)
-													fmt.Println("Harga : ", harga)
+													fmt.Println("Harga : Rp.", harga)
 													fmt.Println("Jumlah Buku : ", jumlahBuku)
-													fmt.Println("Anda mendapatkan diskon :", diskon)
-													fmt.Println("Total Harga : ", total)
-													fmt.Println("Kembalian : ", kembalian)
+													fmt.Println("Anda mendapatkan diskon : Rp.", diskon)
+													fmt.Println("Total Harga: Rp.", total)
+													fmt.Println("Kembalian : Rp.", kembalian)
 													fmt.Print("====================== Terima Kasih ========================\n")
 
 													kodeGame = false
@@ -135,12 +136,12 @@ func main() {
 													fmt.Println("========================= STRUK ============================")
 													fmt.Println("Anda telah membeli buku")
 													fmt.Println("Buku :  ", namaBuku)
-													fmt.Println("Harga : ", harga)
+													fmt.Println("Harga : Rp.", harga)
 													fmt.Println("Jumlah buku : ", jumlahBuku)
-													fmt.Println("Anda mendapatkan diskon : ", diskon)
-													fmt.Println("Anda mendapatkan cashback : ", cashback)
-													fmt.Println("Total harga : ", total)
-													fmt.Println("Kembalian : ", kembalian)
+													fmt.Println("Anda mendapatkan diskon : Rp.", diskon)
+													fmt.Println("Anda mendapatkan cashback : Rp.", cashback)
+													fmt.Println("Total harga : Rp.", total)
+													fmt.Println("Kembalian : Rp.", kembalian)
 													fmt.Print("====================== Terima Kasih ========================\n")
 
 													kodeGame = false
@@ -151,11 +152,11 @@ func main() {
 													fmt.Println("========================= STRUK ============================")
 													fmt.Println("Anda telah membeli buku")
 													fmt.Println("Buku :  ", namaBuku)
-													fmt.Println("Harga : ", harga)
+													fmt.Println("Harga : Rp.", harga)
 													fmt.Println("Jumlah buku : ", jumlahBuku)
 													fmt.Println("Anda mendapatkan buku secara gratis")
-													fmt.Println("Total harga : ", total)
-													fmt.Println("Uang anda kembali : ", uang)
+													fmt.Println("Total harga : Rp.", total)
+													fmt.Println("Uang anda kembali : Rp.", uang)
 													fmt.Print("====================== Terima Kasih ========================\n")
 
 													kodeGame = false
@@ -169,11 +170,11 @@ func main() {
 											kembalian = uang - total
 											fmt.Println("========================= STRUK ============================")
 											fmt.Println("Anda telah membeli buku")
-											fmt.Println("Buku :  ", namaBuku)
-											fmt.Println("Harga : ", harga)
+											fmt.Println("Buku : ", namaBuku)
+											fmt.Println("Harga : Rp.", harga)
 											fmt.Println("Jumlah Buku : ", jumlahBuku)
-											fmt.Println("Total Harga : ", total)
-											fmt.Println("Kembalian : ", kembalian)
+											fmt.Println("Total Harga : Rp.", total)
+											fmt.Println("Kembalian : Rp.", kembalian)
 											fmt.Print("====================== Terima Kasih ========================\n")
 
 											opsiBuku = -1
@@ -208,11 +209,11 @@ func main() {
 													fmt.Println("========================= STRUK ============================")
 													fmt.Println("Anda telah membeli buku")
 													fmt.Println("Buku :  ", namaBuku)
-													fmt.Println("Harga : ", harga)
+													fmt.Println("Harga : Rp.", harga)
 													fmt.Println("Jumlah Buku : ", jumlahBuku)
-													fmt.Println("Anda mendapatkan diskon :", diskon)
-													fmt.Println("Total Harga : ", total)
-													fmt.Println("Kembalian : ", kembalian)
+													fmt.Println("Anda mendapatkan diskon : Rp.", diskon)
+													fmt.Println("Total Harga : Rp.", total)
+													fmt.Println("Kembalian : Rp.", kembalian)
 													fmt.Print("====================== Terima Kasih ========================\n")
 
 													kodeGame = false
@@ -228,12 +229,12 @@ func main() {
 													fmt.Println("========================= STRUK ============================")
 													fmt.Println("Anda telah membeli buku")
 													fmt.Println("Buku :  ", namaBuku)
-													fmt.Println("Harga : ", harga)
+													fmt.Println("Harga : Rp.", harga)
 													fmt.Println("Jumlah buku : ", jumlahBuku)
-													fmt.Println("Anda mendapatkan diskon : ", diskon)
-													fmt.Println("Anda mendapatkan cashback : ", cashback)
-													fmt.Println("Total harga : ", total)
-													fmt.Println("Kembalian : ", kembalian)
+													fmt.Println("Anda mendapatkan diskon : Rp.", diskon)
+													fmt.Println("Anda mendapatkan cashback : Rp.", cashback)
+													fmt.Println("Total harga : Rp.", total)
+													fmt.Println("Kembalian : Rp.", kembalian)
 													fmt.Print("====================== Terima Kasih ========================\n")
 
 													kodeGame = false
@@ -246,12 +247,12 @@ func main() {
 													kembalian = 0
 													fmt.Println("========================= STRUK ============================")
 													fmt.Println("Anda telah membeli buku")
-													fmt.Println("Buku :  ", namaBuku)
-													fmt.Println("Harga : ", harga)
+													fmt.Println("Buku : ", namaBuku)
+													fmt.Println("Harga : Rp.", harga)
 													fmt.Println("Jumlah buku : ", jumlahBuku)
 													fmt.Println("Anda mendapatkan buku secara gratis")
-													fmt.Println("Total harga : ", total)
-													fmt.Println("Uang anda kembali : ", uang)
+													fmt.Println("Total harga : Rp.", total)
+													fmt.Println("Uang anda kembali : Rp.", uang)
 													fmt.Print("====================== Terima Kasih ========================\n")
 
 													kodeGame = false
@@ -270,10 +271,10 @@ func main() {
 											fmt.Println("========================= STRUK ============================")
 											fmt.Println("Anda telah membeli buku")
 											fmt.Println("Buku :  ", namaBuku)
-											fmt.Println("Harga : ", harga)
+											fmt.Println("Harga : Rp.", harga)
 											fmt.Println("Jumlah Buku : ", jumlahBuku)
-											fmt.Println("Total Harga : ", total)
-											fmt.Println("Kembalian : ", kembalian)
+											fmt.Println("Total Harga : Rp.", total)
+											fmt.Println("Kembalian : Rp.", kembalian)
 											fmt.Print("====================== Terima Kasih ========================\n")
 
 											program = false
@@ -292,11 +293,11 @@ func main() {
 								}
 							}
 						} else if opsiKategori == 2 {
-							fmt.Println("1. Al-Quran")
-							fmt.Println("2. Alkitab")
-							fmt.Println("3. Hindunisme untuk Dummies")
-							fmt.Println("4. Sirah Nabawiyah")
-							fmt.Println("5. Paritta Suci")
+							fmt.Println("1. Al-Quran, Rp. 100.000")
+							fmt.Println("2. Alkitab, Rp. 150.000")
+							fmt.Println("3. Hindunisme untuk Dummies, Rp. 200.000")
+							fmt.Println("4. Sirah Nabawiyah, Rp. 250.000")
+							fmt.Println("5. Paritta Suci, Rp. 300.000")
 							fmt.Println("Masukan nomor buku yang ingin anda beli: ")
 							fmt.Scan(&opsiBuku)
 							fmt.Print("\n")
@@ -308,19 +309,19 @@ func main() {
 							}
 
 							if opsiBuku == 1 {
-								namaBuku = "Al-Quran"
+								namaBuku = "Al-Quran, Rp. 100.000"
 								harga = 100000
 							} else if opsiBuku == 2 {
-								namaBuku = "Alkitab"
+								namaBuku = "Alkitab, Rp. 150.000"
 								harga = 150000
 							} else if opsiBuku == 3 {
-								namaBuku = "Hindunisme untuk Dummies"
+								namaBuku = "Hindunisme untuk Dummies, Rp. 200.000"
 								harga = 200000
 							} else if opsiBuku == 4 {
-								namaBuku = "Sirah Nabawiyah"
+								namaBuku = "Sirah Nabawiyah, Rp. 250.000"
 								harga = 250000
 							} else if opsiBuku == 5 {
-								namaBuku = "Paritta Suci"
+								namaBuku = "Paritta Suci, Rp. 300.000"
 								harga = 300000
 							}
 
@@ -331,7 +332,8 @@ func main() {
 								fmt.Println("\t")
 
 								if jumlahBuku == 0 {
-									fmt.Println("Jumlah buku 0 atau tidak valid, program perbenti")
+									fmt.Println("Terdeteksi jumlah buku 0 atau tidak valid, program berhenti")
+
 									opsiBuku = 0
 									opsiKategori = 0
 									program = false
@@ -369,15 +371,18 @@ func main() {
 													fmt.Println("========================= STRUK ============================")
 													fmt.Println("Anda telah membeli buku")
 													fmt.Println("Buku :  ", namaBuku)
-													fmt.Println("Harga : ", harga)
+													fmt.Println("Harga : Rp.", harga)
 													fmt.Println("Jumlah Buku : ", jumlahBuku)
-													fmt.Println("Anda mendapatkan diskon :", diskon)
-													fmt.Println("Total Harga : ", total)
-													fmt.Println("Kembalian : ", kembalian)
+													fmt.Println("Anda mendapatkan diskon : Rp.", diskon)
+													fmt.Println("Total Harga : Rp.", total)
+													fmt.Println("Kembalian : Rp.", kembalian)
 													fmt.Print("====================== Terima Kasih ========================\n")
 
 													kodeGame = false
 													program = false
+													opsiBuku = -1
+													opsiKategori = -1
+													opsiMenu = -1
 												} else if (kode == "AtomicHabits" || kode == "Atomichabits" || kode == "atomichabits" || kode == "ATOMICHABITS") || (kode == "Islandia" || kode == "islandia" || kode == "ISLANDIA") {
 													total = total - diskon
 													kembalian = 0
@@ -385,32 +390,38 @@ func main() {
 													kembalian = kembalian + cashback
 													fmt.Println("========================= STRUK ============================")
 													fmt.Println("Anda telah membeli buku")
-													fmt.Println("Buku :  ", namaBuku)
-													fmt.Println("Harga : ", harga)
+													fmt.Println("Buku : ", namaBuku)
+													fmt.Println("Harga : Rp.", harga)
 													fmt.Println("Jumlah buku : ", jumlahBuku)
-													fmt.Println("Anda mendapatkan diskon : ", diskon)
-													fmt.Println("Anda mendapatkan cashback : ", cashback)
-													fmt.Println("Total harga : ", total)
-													fmt.Println("Kembalian : ", kembalian)
+													fmt.Println("Anda mendapatkan diskon : Rp.", diskon)
+													fmt.Println("Anda mendapatkan cashback : Rp.", cashback)
+													fmt.Println("Total harga : Rp.", total)
+													fmt.Println("Kembalian : Rp.", kembalian)
 													fmt.Print("====================== Terima Kasih ========================\n")
 
 													kodeGame = false
 													program = false
+													opsiBuku = -1
+													opsiKategori = -1
+													opsiMenu = -1
 												} else if (kode == "infiniti" || kode == "Infiniti" || kode == "INFINITI") || (kode == "Ichneumon" || kode == "ichneumon" || kode == "ICHNEUMON") {
 													total = total - total
 													kembalian = 0
 													fmt.Println("========================= STRUK ============================")
 													fmt.Println("Anda telah membeli buku")
-													fmt.Println("Buku :  ", namaBuku)
-													fmt.Println("Harga : ", harga)
-													fmt.Println("Jumlah buku : ", jumlahBuku)
+													fmt.Println("Buku : ", namaBuku)
+													fmt.Println("Harga : Rp.", harga)
+													fmt.Println("Jumlah buku : Rp.", jumlahBuku)
 													fmt.Println("Anda mendapatkan buku secara gratis")
-													fmt.Println("Total harga : ", total)
+													fmt.Println("Total harga : Rp.", total)
 													fmt.Println("Uang anda kembali : ", uang)
 													fmt.Print("====================== Terima Kasih ========================\n")
 
 													kodeGame = false
 													program = false
+													opsiBuku = -1
+													opsiKategori = -1
+													opsiMenu = -1
 												} else {
 													fmt.Println("Kode tidak valid, silakan masukan kode yang benar")
 												}
@@ -420,13 +431,13 @@ func main() {
 											kembalian = uang - total
 											fmt.Println("========================= STRUK ============================")
 											fmt.Println("Anda telah membeli buku")
-											fmt.Println("Buku :  ", namaBuku)
-											fmt.Println("Harga : ", harga)
-											fmt.Println("Jumlah Buku : ", jumlahBuku)
-											fmt.Println("Total Harga : ", total)
-											fmt.Println("Kembalian : ", kembalian)
+											fmt.Println("Buku : ", namaBuku)
+											fmt.Println("Harga : Rp.", harga)
+											fmt.Println("Jumlah Buku : Rp.", jumlahBuku)
+											fmt.Println("Total Harga : Rp.", total)
+											fmt.Println("Kembalian : Rp.", kembalian)
 											fmt.Print("====================== Terima Kasih ========================\n")
-
+											
 											opsiBuku = -1
 											opsiKategori = -1
 											opsiMenu = -1
@@ -458,12 +469,12 @@ func main() {
 													kembalian = uang - total
 													fmt.Println("========================= STRUK ============================")
 													fmt.Println("Anda telah membeli buku")
-													fmt.Println("Buku :  ", namaBuku)
-													fmt.Println("Harga : ", harga)
+													fmt.Println("Buku : ", namaBuku)
+													fmt.Println("Harga : Rp.", harga)
 													fmt.Println("Jumlah Buku : ", jumlahBuku)
-													fmt.Println("Anda mendapatkan diskon :", diskon)
-													fmt.Println("Total Harga : ", total)
-													fmt.Println("Kembalian : ", kembalian)
+													fmt.Println("Anda mendapatkan diskon : Rp.", diskon)
+													fmt.Println("Total Harga : Rp.", total)
+													fmt.Println("Kembalian :Rp. ", kembalian)
 													fmt.Print("====================== Terima Kasih ========================\n")
 
 													kodeGame = false
@@ -478,13 +489,13 @@ func main() {
 													kembalian = kembalian + cashback
 													fmt.Println("========================= STRUK ============================")
 													fmt.Println("Anda telah membeli buku")
-													fmt.Println("Buku :  ", namaBuku)
-													fmt.Println("Harga : ", harga)
-													fmt.Println("Jumlah buku : ", jumlahBuku)
-													fmt.Println("Anda mendapatkan diskon : ", diskon)
-													fmt.Println("Anda mendapatkan cashback : ", cashback)
-													fmt.Println("Total harga : ", total)
-													fmt.Println("Kembalian : ", kembalian)
+													fmt.Println("Buku : ", namaBuku)
+													fmt.Println("Harga : Rp.", harga)
+													fmt.Println("Jumlah buku : Rp.", jumlahBuku)
+													fmt.Println("Anda mendapatkan diskon : Rp.", diskon)
+													fmt.Println("Anda mendapatkan cashback : Rp.", cashback)
+													fmt.Println("Total harga : Rp.", total)
+													fmt.Println("Kembalian : Rp.", kembalian)
 													fmt.Print("====================== Terima Kasih ========================\n")
 
 													kodeGame = false
@@ -497,12 +508,12 @@ func main() {
 													kembalian = 0
 													fmt.Println("========================= STRUK ============================")
 													fmt.Println("Anda telah membeli buku")
-													fmt.Println("Buku :  ", namaBuku)
-													fmt.Println("Harga : ", harga)
+													fmt.Println("Buku : ", namaBuku)
+													fmt.Println("Harga : Rp.", harga)
 													fmt.Println("Jumlah buku : ", jumlahBuku)
 													fmt.Println("Anda mendapatkan buku secara gratis")
-													fmt.Println("Total harga : ", total)
-													fmt.Println("Uang anda kembali : ", uang)
+													fmt.Println("Total harga : Rp.", total)
+													fmt.Println("Uang anda kembali : Rp.", uang)
 													fmt.Print("====================== Terima Kasih ========================\n")
 
 													kodeGame = false
@@ -520,11 +531,11 @@ func main() {
 											kembalian = uang - total
 											fmt.Println("========================= STRUK ============================")
 											fmt.Println("Anda telah membeli buku")
-											fmt.Println("Buku :  ", namaBuku)
-											fmt.Println("Harga : ", harga)
+											fmt.Println("Buku : ", namaBuku)
+											fmt.Println("Harga : Rp.", harga)
 											fmt.Println("Jumlah Buku : ", jumlahBuku)
-											fmt.Println("Total Harga : ", total)
-											fmt.Println("Kembalian : ", kembalian)
+											fmt.Println("Total Harga : Rp.", total)
+											fmt.Println("Kembalian : Rp.", kembalian)
 											fmt.Print("====================== Terima Kasih ========================\n")
 
 											program = false
@@ -543,11 +554,11 @@ func main() {
 								}
 							}
 						} else if opsiKategori == 3 {
-							fmt.Println("1. Go Lang")
-							fmt.Println("2. Java")
-							fmt.Println("3. C++")
-							fmt.Println("4. Python")
-							fmt.Println("5. Javascript")
+							fmt.Println("1. Go Lang, Rp. 100.000")
+							fmt.Println("2. Java, Rp. 150.000")
+							fmt.Println("3. C++, Rp. 200.000")
+							fmt.Println("4. Python, Rp. 250.000")
+							fmt.Println("5. Javascript, Rp. 300.000")
 							fmt.Println("Masukan nomor buku yang ingin anda beli: ")
 							fmt.Scan(&opsiBuku)
 							fmt.Print("\n")
@@ -559,19 +570,19 @@ func main() {
 							}
 
 							if opsiBuku == 1 {
-								namaBuku = "Go Lang"
+								namaBuku = "Go Lang, Rp. 100.000"
 								harga = 100000
 							} else if opsiBuku == 2 {
-								namaBuku = "Java"
+								namaBuku = "Java, Rp. 150.000"
 								harga = 150000
 							} else if opsiBuku == 3 {
-								namaBuku = "C++"
+								namaBuku = "C++, Rp. 200.000"
 								harga = 200000
 							} else if opsiBuku == 4 {
-								namaBuku = "Python"
+								namaBuku = "Python, Rp. 250.000"
 								harga = 250000
 							} else if opsiBuku == 5 {
-								namaBuku = "Javascript"
+								namaBuku = "Javascript, Rp. 300.000"
 								harga = 300000
 							}
 
@@ -582,7 +593,7 @@ func main() {
 								fmt.Println("\t")
 
 								if jumlahBuku == 0 {
-									fmt.Println("Jumlah buku 0 atau tidak valid, program perbenti")
+									fmt.Println("Terdeteksi jumlah buku 0 atau tidak valid, program berhenti")
 									opsiBuku = 0
 									opsiKategori = 0
 									program = false
@@ -619,16 +630,19 @@ func main() {
 													kembalian = uang - total
 													fmt.Println("========================= STRUK ============================")
 													fmt.Println("Anda telah membeli buku")
-													fmt.Println("Buku :  ", namaBuku)
-													fmt.Println("Harga : ", harga)
+													fmt.Println("Buku : ", namaBuku)
+													fmt.Println("Harga : Rp.", harga)
 													fmt.Println("Jumlah Buku : ", jumlahBuku)
-													fmt.Println("Anda mendapatkan diskon :", diskon)
-													fmt.Println("Total Harga : ", total)
-													fmt.Println("Kembalian : ", kembalian)
+													fmt.Println("Anda mendapatkan diskon : Rp.", diskon)
+													fmt.Println("Total Harga : Rp.", total)
+													fmt.Println("Kembalian : Rp.", kembalian)
 													fmt.Print("====================== Terima Kasih ========================\n")
 
 													kodeGame = false
 													program = false
+													opsiBuku = -1
+													opsiKategori = -1
+													opsiMenu = -1
 												} else if (kode == "AtomicHabits" || kode == "Atomichabits" || kode == "atomichabits" || kode == "ATOMICHABITS") || (kode == "Islandia" || kode == "islandia" || kode == "ISLANDIA") {
 													total = total - diskon
 													kembalian = 0
@@ -636,32 +650,38 @@ func main() {
 													kembalian = kembalian + cashback
 													fmt.Println("========================= STRUK ============================")
 													fmt.Println("Anda telah membeli buku")
-													fmt.Println("Buku :  ", namaBuku)
-													fmt.Println("Harga : ", harga)
+													fmt.Println("Buku : ", namaBuku)
+													fmt.Println("Harga : Rp.", harga)
 													fmt.Println("Jumlah buku : ", jumlahBuku)
-													fmt.Println("Anda mendapatkan diskon : ", diskon)
-													fmt.Println("Anda mendapatkan cashback : ", cashback)
-													fmt.Println("Total harga : ", total)
-													fmt.Println("Kembalian : ", kembalian)
+													fmt.Println("Anda mendapatkan diskon : Rp.", diskon)
+													fmt.Println("Anda mendapatkan cashback : Rp.", cashback)
+													fmt.Println("Total harga : Rp.", total)
+													fmt.Println("Kembalian : Rp.", kembalian)
 													fmt.Print("====================== Terima Kasih ========================\n")
 
 													kodeGame = false
 													program = false
+													opsiBuku = -1
+													opsiKategori = -1
+													opsiMenu = -1
 												} else if (kode == "infiniti" || kode == "Infiniti" || kode == "INFINITI") || (kode == "Ichneumon" || kode == "ichneumon" || kode == "ICHNEUMON") {
 													total = total - total
 													kembalian = 0
 													fmt.Println("========================= STRUK ============================")
 													fmt.Println("Anda telah membeli buku")
 													fmt.Println("Buku :  ", namaBuku)
-													fmt.Println("Harga : ", harga)
+													fmt.Println("Harga : Rp.", harga)
 													fmt.Println("Jumlah buku : ", jumlahBuku)
 													fmt.Println("Anda mendapatkan buku secara gratis")
-													fmt.Println("Total harga : ", total)
-													fmt.Println("Uang anda kembali : ", uang)
+													fmt.Println("Total harga : Rp.", total)
+													fmt.Println("Uang anda kembali : Rp.", uang)
 													fmt.Print("====================== Terima Kasih ========================\n")
 
 													kodeGame = false
 													program = false
+													opsiBuku = -1
+													opsiKategori = -1
+													opsiMenu = -1
 												} else {
 													fmt.Println("Kode tidak valid, silakan masukan kode yang benar")
 												}
@@ -672,10 +692,10 @@ func main() {
 											fmt.Println("========================= STRUK ============================")
 											fmt.Println("Anda telah membeli buku")
 											fmt.Println("Buku :  ", namaBuku)
-											fmt.Println("Harga : ", harga)
+											fmt.Println("Harga : Rp.", harga)
 											fmt.Println("Jumlah Buku : ", jumlahBuku)
-											fmt.Println("Total Harga : ", total)
-											fmt.Println("Kembalian : ", kembalian)
+											fmt.Println("Total Harga : Rp.", total)
+											fmt.Println("Kembalian : Rp.", kembalian)
 											fmt.Print("====================== Terima Kasih ========================\n")
 
 											opsiBuku = -1
@@ -709,12 +729,12 @@ func main() {
 													kembalian = uang - total
 													fmt.Println("========================= STRUK ============================")
 													fmt.Println("Anda telah membeli buku")
-													fmt.Println("Buku :  ", namaBuku)
-													fmt.Println("Harga : ", harga)
+													fmt.Println("Buku : ", namaBuku)
+													fmt.Println("Harga : Rp.", harga)
 													fmt.Println("Jumlah Buku : ", jumlahBuku)
-													fmt.Println("Anda mendapatkan diskon :", diskon)
-													fmt.Println("Total Harga : ", total)
-													fmt.Println("Kembalian : ", kembalian)
+													fmt.Println("Anda mendapatkan diskon : Rp.", diskon)
+													fmt.Println("Total Harga : Rp.", total)
+													fmt.Println("Kembalian : Rp.", kembalian)
 													fmt.Print("====================== Terima Kasih ========================\n")
 
 													kodeGame = false
@@ -729,13 +749,13 @@ func main() {
 													kembalian = kembalian + cashback
 													fmt.Println("========================= STRUK ============================")
 													fmt.Println("Anda telah membeli buku")
-													fmt.Println("Buku :  ", namaBuku)
-													fmt.Println("Harga : ", harga)
+													fmt.Println("Buku : ", namaBuku)
+													fmt.Println("Harga : Rp.", harga)
 													fmt.Println("Jumlah buku : ", jumlahBuku)
-													fmt.Println("Anda mendapatkan diskon : ", diskon)
-													fmt.Println("Anda mendapatkan cashback : ", cashback)
-													fmt.Println("Total harga : ", total)
-													fmt.Println("Kembalian : ", kembalian)
+													fmt.Println("Anda mendapatkan diskon : Rp.", diskon)
+													fmt.Println("Anda mendapatkan cashback : Rp.", cashback)
+													fmt.Println("Total harga : Rp.", total)
+													fmt.Println("Kembalian : Rp.", kembalian)
 													fmt.Print("====================== Terima Kasih ========================\n")
 
 													kodeGame = false
@@ -748,12 +768,12 @@ func main() {
 													kembalian = 0
 													fmt.Println("========================= STRUK ============================")
 													fmt.Println("Anda telah membeli buku")
-													fmt.Println("Buku :  ", namaBuku)
-													fmt.Println("Harga : ", harga)
+													fmt.Println("Buku : ", namaBuku)
+													fmt.Println("Harga : Rp.", harga)
 													fmt.Println("Jumlah buku : ", jumlahBuku)
 													fmt.Println("Anda mendapatkan buku secara gratis")
-													fmt.Println("Total harga : ", total)
-													fmt.Println("Uang anda kembali : ", uang)
+													fmt.Println("Total harga : Rp.", total)
+													fmt.Println("Uang anda kembali : Rp.", uang)
 													fmt.Print("====================== Terima Kasih ========================\n")
 
 													kodeGame = false
@@ -771,11 +791,11 @@ func main() {
 											kembalian = uang - total
 											fmt.Println("========================= STRUK ============================")
 											fmt.Println("Anda telah membeli buku")
-											fmt.Println("Buku :  ", namaBuku)
-											fmt.Println("Harga : ", harga)
+											fmt.Println("Buku : ", namaBuku)
+											fmt.Println("Harga : Rp.", harga)
 											fmt.Println("Jumlah Buku : ", jumlahBuku)
-											fmt.Println("Total Harga : ", total)
-											fmt.Println("Kembalian : ", kembalian)
+											fmt.Println("Total Harga : Rp.", total)
+											fmt.Println("Kembalian : Rp.", kembalian)
 											fmt.Print("====================== Terima Kasih ========================\n")
 
 											program = false
@@ -794,11 +814,11 @@ func main() {
 								}
 							}
 						} else if opsiKategori == 4 {
-							fmt.Println("1. One Piece")
-							fmt.Println("2. Berserk")
-							fmt.Println("3. Vagabond")
-							fmt.Println("4. Slam Dunk")
-							fmt.Println("5. Naruto")
+							fmt.Println("1. One Piece, Rp. 100.000")
+							fmt.Println("2. Berserk, Rp. 150.000")
+							fmt.Println("3. Vagabond, Rp. 200.000")
+							fmt.Println("4. Slam Dunk, Rp. 250.000")
+							fmt.Println("5. Naruto, Rp. 300.000")
 
 							fmt.Println("Masukan nomor buku yang ingin anda beli: ")
 							fmt.Scan(&opsiBuku)
@@ -811,19 +831,19 @@ func main() {
 							}
 
 							if opsiBuku == 1 {
-								namaBuku = "One Piece"
+								namaBuku = "One Piece, Rp. 100.000"
 								harga = 100000
 							} else if opsiBuku == 2 {
-								namaBuku = "Berserk"
+								namaBuku = "Berserk, Rp. 150.000"
 								harga = 150000
 							} else if opsiBuku == 3 {
-								namaBuku = "Vagabond"
+								namaBuku = "Vagabond, Rp. 200.000"
 								harga = 200000
 							} else if opsiBuku == 4 {
-								namaBuku = "Slam Dunk"
+								namaBuku = "Slam Dunk, Rp. 250.000"
 								harga = 250000
 							} else if opsiBuku == 5 {
-								namaBuku = "Naruto"
+								namaBuku = "Naruto, Rp. 300.000"
 								harga = 300000
 							}
 
@@ -835,6 +855,7 @@ func main() {
 
 								if jumlahBuku == 0 {
 									fmt.Println("Jumlah buku 0 atau tidak valid, program perbenti")
+									
 									opsiBuku = 0
 									opsiKategori = 0
 									program = false
@@ -872,15 +893,18 @@ func main() {
 													fmt.Println("========================= STRUK ============================")
 													fmt.Println("Anda telah membeli buku")
 													fmt.Println("Buku :  ", namaBuku)
-													fmt.Println("Harga : ", harga)
+													fmt.Println("Harga : Rp.", harga)
 													fmt.Println("Jumlah Buku : ", jumlahBuku)
-													fmt.Println("Anda mendapatkan diskon :", diskon)
-													fmt.Println("Total Harga : ", total)
-													fmt.Println("Kembalian : ", kembalian)
+													fmt.Println("Anda mendapatkan diskon : Rp.", diskon)
+													fmt.Println("Total Harga : Rp.", total)
+													fmt.Println("Kembalian : Rp.", kembalian)
 													fmt.Print("====================== Terima Kasih ========================\n")
 
 													kodeGame = false
 													program = false
+													opsiBuku = -1
+													opsiKategori = -1
+													opsiMenu = -1
 												} else if (kode == "AtomicHabits" || kode == "Atomichabits" || kode == "atomichabits" || kode == "ATOMICHABITS") || (kode == "Islandia" || kode == "islandia" || kode == "ISLANDIA") {
 													total = total - diskon
 													kembalian = 0
@@ -888,32 +912,38 @@ func main() {
 													kembalian = kembalian + cashback
 													fmt.Println("========================= STRUK ============================")
 													fmt.Println("Anda telah membeli buku")
-													fmt.Println("Buku :  ", namaBuku)
-													fmt.Println("Harga : ", harga)
+													fmt.Println("Buku : ", namaBuku)
+													fmt.Println("Harga : Rp.", harga)
 													fmt.Println("Jumlah buku : ", jumlahBuku)
-													fmt.Println("Anda mendapatkan diskon : ", diskon)
-													fmt.Println("Anda mendapatkan cashback : ", cashback)
-													fmt.Println("Total harga : ", total)
-													fmt.Println("Kembalian : ", kembalian)
+													fmt.Println("Anda mendapatkan diskon : Rp.", diskon)
+													fmt.Println("Anda mendapatkan cashback : Rp.", cashback)
+													fmt.Println("Total harga : Rp.", total)
+													fmt.Println("Kembalian : Rp.", kembalian)
 													fmt.Print("====================== Terima Kasih ========================\n")
 
 													kodeGame = false
 													program = false
+													opsiBuku = -1
+													opsiKategori = -1
+													opsiMenu = -1
 												} else if (kode == "infiniti" || kode == "Infiniti" || kode == "INFINITI") || (kode == "Ichneumon" || kode == "ichneumon" || kode == "ICHNEUMON") {
 													total = total - total
 													kembalian = 0
 													fmt.Println("========================= STRUK ============================")
 													fmt.Println("Anda telah membeli buku")
-													fmt.Println("Buku :  ", namaBuku)
-													fmt.Println("Harga : ", harga)
+													fmt.Println("Buku : ", namaBuku)
+													fmt.Println("Harga : Rp.", harga)
 													fmt.Println("Jumlah buku : ", jumlahBuku)
 													fmt.Println("Anda mendapatkan buku secara gratis")
-													fmt.Println("Total harga : ", total)
-													fmt.Println("Uang anda kembali : ", uang)
+													fmt.Println("Total harga : Rp.", total)
+													fmt.Println("Uang anda kembali : Rp.", uang)
 													fmt.Print("====================== Terima Kasih ========================\n")
 
 													kodeGame = false
 													program = false
+													opsiBuku = -1
+													opsiKategori = -1
+													opsiMenu = -1
 												} else {
 													fmt.Println("Kode tidak valid, silakan masukan kode yang benar")
 												}
@@ -923,11 +953,11 @@ func main() {
 											kembalian = uang - total
 											fmt.Println("========================= STRUK ============================")
 											fmt.Println("Anda telah membeli buku")
-											fmt.Println("Buku :  ", namaBuku)
-											fmt.Println("Harga : ", harga)
+											fmt.Println("Buku : ", namaBuku)
+											fmt.Println("Harga : Rp.", harga)
 											fmt.Println("Jumlah Buku : ", jumlahBuku)
-											fmt.Println("Total Harga : ", total)
-											fmt.Println("Kembalian : ", kembalian)
+											fmt.Println("Total Harga : Rp.", total)
+											fmt.Println("Kembalian : Rp.", kembalian)
 											fmt.Print("====================== Terima Kasih ========================\n")
 
 											opsiBuku = -1
@@ -961,12 +991,12 @@ func main() {
 													kembalian = uang - total
 													fmt.Println("========================= STRUK ============================")
 													fmt.Println("Anda telah membeli buku")
-													fmt.Println("Buku :  ", namaBuku)
-													fmt.Println("Harga : ", harga)
+													fmt.Println("Buku : ", namaBuku)
+													fmt.Println("Harga : Rp.", harga)
 													fmt.Println("Jumlah Buku : ", jumlahBuku)
-													fmt.Println("Anda mendapatkan diskon :", diskon)
-													fmt.Println("Total Harga : ", total)
-													fmt.Println("Kembalian : ", kembalian)
+													fmt.Println("Anda mendapatkan diskon : Rp.", diskon)
+													fmt.Println("Total Harga : Rp.", total)
+													fmt.Println("Kembalian : Rp.", kembalian)
 													fmt.Print("====================== Terima Kasih ========================\n")
 
 													kodeGame = false
@@ -981,13 +1011,13 @@ func main() {
 													kembalian = kembalian + cashback
 													fmt.Println("========================= STRUK ============================")
 													fmt.Println("Anda telah membeli buku")
-													fmt.Println("Buku :  ", namaBuku)
-													fmt.Println("Harga : ", harga)
+													fmt.Println("Buku : ", namaBuku)
+													fmt.Println("Harga : Rp.", harga)
 													fmt.Println("Jumlah buku : ", jumlahBuku)
-													fmt.Println("Anda mendapatkan diskon : ", diskon)
-													fmt.Println("Anda mendapatkan cashback : ", cashback)
-													fmt.Println("Total harga : ", total)
-													fmt.Println("Kembalian : ", kembalian)
+													fmt.Println("Anda mendapatkan diskon : Rp.", diskon)
+													fmt.Println("Anda mendapatkan cashback : Rp.", cashback)
+													fmt.Println("Total harga : Rp.", total)
+													fmt.Println("Kembalian : Rp.", kembalian)
 													fmt.Print("====================== Terima Kasih ========================\n")
 
 													kodeGame = false
@@ -1000,12 +1030,12 @@ func main() {
 													kembalian = 0
 													fmt.Println("========================= STRUK ============================")
 													fmt.Println("Anda telah membeli buku")
-													fmt.Println("Buku :  ", namaBuku)
-													fmt.Println("Harga : ", harga)
+													fmt.Println("Buku : ", namaBuku)
+													fmt.Println("Harga : Rp.", harga)
 													fmt.Println("Jumlah buku : ", jumlahBuku)
 													fmt.Println("Anda mendapatkan buku secara gratis")
-													fmt.Println("Total harga : ", total)
-													fmt.Println("Uang anda kembali : ", uang)
+													fmt.Println("Total harga : Rp.", total)
+													fmt.Println("Uang anda kembali : Rp.", uang)
 													fmt.Print("====================== Terima Kasih ========================\n")
 
 													kodeGame = false
@@ -1023,11 +1053,11 @@ func main() {
 											kembalian = uang - total
 											fmt.Println("========================= STRUK ============================")
 											fmt.Println("Anda telah membeli buku")
-											fmt.Println("Buku :  ", namaBuku)
-											fmt.Println("Harga : ", harga)
+											fmt.Println("Buku : ", namaBuku)
+											fmt.Println("Harga : Rp.", harga)
 											fmt.Println("Jumlah Buku : ", jumlahBuku)
-											fmt.Println("Total Harga : ", total)
-											fmt.Println("Kembalian : ", kembalian)
+											fmt.Println("Total Harga : Rp.", total)
+											fmt.Println("Kembalian : Rp.", kembalian)
 											fmt.Print("====================== Terima Kasih ========================\n")
 
 											program = false
@@ -1088,7 +1118,7 @@ func main() {
 									fmt.Println("\nPilih Pertanyaan:")
 									fmt.Println("1. Tebak jenis buku apa yang Roki baca")
 									fmt.Println("2. Tebak negara terkecil di dunia")
-									fmt.Println("\nPilihan Anda (1 / 2): ")
+									fmt.Println("\nMasukan pilihan Anda (1 / 2): ")
 									fmt.Scan(&Opsi)
 
 									if Opsi == 1 {
@@ -1241,7 +1271,7 @@ func main() {
 									fmt.Println("\nPilih Pertanyaan:")
 									fmt.Println("1. Tebak nama buku best seller di Gramedia")
 									fmt.Println("2. Tebak negara")
-									fmt.Println("\nPilihan Anda (1 / 2): ")
+									fmt.Println("\nMasukan pilihan Anda (1 / 2): ")
 									fmt.Scan(&Opsi)
 
 									if Opsi == 1 {
